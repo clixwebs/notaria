@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-29T14:53:19.424Z",
+  "databaseDemoVerified": true,
+  "productionAdminCount": 1,
+  "productionTotpConfigured": false,
+  "initialPasswordLogin": 200,
+  "dataRequiresTotp": 403,
+  "anonymousData": 401,
+  "httpsLogin": 200,
+  "seedMarkerCount": 1,
+  "realProvidersEnabled": false
+}

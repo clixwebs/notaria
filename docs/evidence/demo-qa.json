@@ -1,0 +1,25 @@
+{
+  "marker": "demo-client-20261029-v1",
+  "target": "qa",
+  "at": "2026-10-29T14:47:25.086Z",
+  "replayed": true,
+  "counts": {
+    "persons": 12,
+    "cases": 9,
+    "quotes": 9,
+    "documents": 4,
+    "tariffs": 6,
+    "movements": 16,
+    "fiscal_documents": 2,
+    "staff": 1,
+    "enrolled_accounts": 0
+  },
+  "balances": {
+    "cash": "695.00",
+    "receivable": "2390.00",
+    "advance": "100.00",
+    "third": "150.00",
+    "expense_pending": "0.00"
+  },
+  "realProvidersEnabled": false
+}

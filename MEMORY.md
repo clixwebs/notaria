@@ -1,4 +1,14 @@
-# Estado vigente · Publicación autorizada
+# Estado vigente · Demostración publicada con datos ficticios
+
+29/10/2026. Después del despliegue, el usuario autorizó expresamente llenar la base publicada con datos simulados para mostrarla al cliente. `https://notariaos.vercel.app` pasa a ser entorno de DEMOSTRACIÓN persistente:12personas tipoDEMO,9expedientes,9presupuestos/7aceptaciones,6tarifas,4TXT privados(3liberados/1cuarentena),16movimientos y2documentos fiscalesSIM preparados. Caja695.00; deuda2390.00; anticipos100.00; terceros150.00; gastos pendientes0.00. Importes ficticios exactos/separados. No nuevas cuentas, roles profesionales, PLAFT, autorización notarial o integraciones reales. La cuenta administradora mantiene TOTP pendiente; contraseña inicial únicamente en `.env.access.local` ignorado, sin copiarla aquí. Guía `docs/deployment/ACCESO-Y-DEMO.md`.
+
+ADR0012 autoriza este conjunto explícito enPostgreSQL; no autoriza semillas enruntime, memoria o `.notaria/`. `scripts/seed-demo.ts` exige objetivo/hostname/confirmación/administrador, rechaza mezcla con datos existentes y se ejecuta atómicamente con comandos de dominio/auditoría. Marcador `demo-client-20261029-v1` y lock evitan duplicación. Ensayo en ramaQA NUEVA `br-holy-union-b5oxu5qk` (`qa-demo-20261029`), independiente delQA anterior, con secretoauth independiente. Repetición sin duplicados y6grupos de comprobaciones correctos:conteos/saldos,DEMO/huellas/cuarentena,inmutabilidad,TOTP-QA/PLAFT,APIs,pantallasChrome sin errores. Primer intento de navegador pidió Chromium no instalado; corregido aChrome existente. Se conserva evidenciaQA y producción;TypeScript/lint correctos. El servicio local principal3100/PID24328 continúa usando `.notaria/`, sin acceso desde scripts ni cambios en su base.
+
+Antes de usar datos operativos: base limpia independiente y transición validada; no eliminar historial inmutable para limpiar esta demostración. Las afirmaciones de producción vacía que siguen son historia del despliegue inicial, superadas por esta petición.
+
+---
+
+# Antecedente · Publicación autorizada
 
 29/10/2026 · NotariaOS0.7.0. El usuario autorizó explícitamente publicar en su repositorio `https://github.com/clixwebs/notaria.git`, crear Neon y Vercel. Esa autorización supera el bloqueo de publicación anterior para este alojamiento, **no** para RENIEC/SUNARP/SUNAT/firma/ROS/notificaciones. Se crearon recursos nuevos sin tocar los otros proyectos.
 

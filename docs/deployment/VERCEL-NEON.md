@@ -9,6 +9,8 @@
 
 ## Acceso inicial
 
+Actualización posterior: el usuario autorizó cargar datos ficticios en esta base para mostrarla al cliente. El alojamiento pasa a ser una demostración con datos DEMO persistentes; véanse [acceso y recorrido](ACCESO-Y-DEMO.md) y [ADR0012](../adr/0012-datos-demo-publicados.md). La decisión inicial de base vacía que sigue se conserva como antecedente del despliegue.
+
 La cuenta administradora se aprovisionó con el nombre y correo confirmados. Su contraseña aleatoria está en el archivo local `.env.access.local`, ignorado por Git. No pegar ese archivo en issues o documentación. Al ingresar, configurar TOTP, guardar los códigos de recuperación y cambiar la contraseña desde Seguridad. Ningún autenticador se activa por el desarrollador para la cuenta del usuario.
 
 La web mantiene bloqueado el bootstrap público y el registro libre. Sin TOTP no se accede a datos. El resto del personal se crea desde Configuración mediante la cuenta administradora ya protegida.

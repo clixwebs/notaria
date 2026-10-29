@@ -1,5 +1,7 @@
 # Instrucciones de NotariaOS
 
+Actualización29/10/2026: el usuario autorizó posteriormente datos DEMO persistentes en la baseNeon publicada para presentación al cliente. LeerMEMORY/ADR0012 y guíaACCESO-Y-DEMO. Carga única explícita/auditada, nunca semillas deruntime o memoria, ni cuentasQA productivas. No configurarTOTP del administrador por él. Para operación real preparar base limpia independiente; no borrar historia inmutable. La basePGlite principal conserva su separación.
+
 Leer `MEMORY.md` al iniciar o retomar. La instrucción activa del usuario prevalece sobre el prompt maestro y sus supuestos.
 
 - Alcance confirmado el 29/10/2026: ERP para **una sola notaría**. ElDial es un ERP de retail y una referencia para reutilizar todo lo compatible. No es la notaría cliente.

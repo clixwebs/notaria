@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-29T14:50:23.900Z",
+  "qaBranch": "br-holy-union-b5oxu5qk",
+  "checks": [
+    "Conteos, repetición sin duplicados y saldos decimales exactos",
+    "Identidades ficticias, hashes y cuarentena",
+    "Presupuestos y auditoría inmutables",
+    "Contraseña inicial válida, TOTP en QA y PLAFT reservado",
+    "APIs reales reflejan la base sembrada",
+    "Dashboard y expedientes visibles en navegador sin errores"
+  ],
+  "passed": 6,
+  "failed": 0,
+  "productionTotpTouched": false
+}

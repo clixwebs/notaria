@@ -2,6 +2,8 @@
 
 # Ampliación del backlog tras la comparación
 
+**Demostración publicada autorizada · 29/10/2026:** carga explícita de datos DEMO persistentes en Neon, ensayada en rama QA nueva, sin semillas de arranque ni cuentas QA productivas. No modifica el alcance pendiente de integraciones, PLAFT o autorización profesional. [ADR0012](../adr/0012-datos-demo-publicados.md), [guía de acceso y recorrido](../deployment/ACCESO-Y-DEMO.md). Antes del uso operativo se necesita base limpia independiente.
+
 **Estado vigente · fase 5 local (0.6.0):** BK-21–23 entregados juntos, sin subfases: reserva PLAFT y revisión humana; finalidades/avisos/consentimiento, ARCO, incidentes y conservación; exportaciones internas inmutables validadas con cargo separado. [Entrega](../phase-5/ENTREGA.md), [ADR0009](../adr/0009-cumplimiento-local-reservado.md), [evidencia](../evidence/fase-5.md). Formato oficial SBS/OCP deshabilitado hasta anexos/régimen/homologación; no hay envío ni aceptación automática. Políticas y responsables operativos requieren validación. SUNAT real sigue deshabilitado. Siguiente fase original6 condicionada a autorización/convenios. Los estados anteriores siguientes son historia.
 
 
