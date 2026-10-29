@@ -1,3 +1,13 @@
+# Publicación autorizada · Vercel y Neon
+
+Aplicación: **[notariaos.vercel.app](https://notariaos.vercel.app/acceso)**. Fuentes en [clixwebs/notaria](https://github.com/clixwebs/notaria), rama `main`. Base Neon nueva, separada de QA y de la instalación local. No se migraron datos de PGlite. Una cuenta inicial solicitada, sin semillas de clientes o expedientes.
+
+[Guía de despliegue](docs/deployment/VERCEL-NEON.md) · [ADR0011](docs/adr/0011-vercel-neon-y-migraciones-de-release.md). Migraciones PostgreSQL explícitas antes del release; Vercel sin escritura a disco ni DDL y con rol limitado. Bootstrap público bloqueado, TOTP obligatorio. La contraseña inicial se entrega en archivo local ignorado, nunca en Git. SUNAT y las demás integraciones reales continúan deshabilitadas; alojamiento público no equivale a habilitación operativa.
+
+Los estados siguientes son antecedentes locales conservados.
+
+---
+
 # Entrega vigente · Fase 6, alcance local integrado
 
 NotariaOS **0.7.0**, 29/10/2026. BK-24–26 juntos y sin subfases. Más → **Integraciones y traslados**: evaluación versionada de dependencias; contrato de identidad local sin operar lector; firma simulada y traslado de instrumento SIM; seguimiento de archivo externo con informe/cargo privados declarados; evidencia externa de demo fiscal ligada a XML exacto. Declarado o simulado nunca significa validado, presentado o aceptado realmente.

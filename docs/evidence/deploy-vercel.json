@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-29",
+  "url": "https://notariaos.vercel.app",
+  "checks": {
+    "httpsLogin200": true,
+    "cloudDatabaseAvailable": true,
+    "administratorProvisioned": true,
+    "totpStillRequired": true,
+    "anonymousAPIs401": true,
+    "publicBootstrapBlocked": true,
+    "signoutWorks": true,
+    "noPageErrors": true
+  },
+  "providersStillDisabled": true
+}

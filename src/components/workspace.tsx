@@ -82,7 +82,7 @@ export function Workspace() {
       <div className="sidebar-bottom"><div className="demo-label"><span />Entorno de demostración</div><p>Trabaja con datos ficticios.<br />Expedientes y versiones persistentes.</p><button className="exit-link" onClick={()=>void signOut()}><SignOut size={18} aria-hidden />Cerrar sesión</button></div>
     </aside>
     <div className="workspace"><TopNavigation path={path} menu={menu} openMenu={() => setMenu(true)} search={() => search.current?.showModal()} dark={dark} setDark={setDark} />
-      <div className="demo-strip"><span><span className="demo-dot" />Entorno local de prueba</span><span>Expedientes y caja persistentes · Integraciones sin conectar</span><Badge>Fase 6 · Preparación local</Badge></div>
+      <div className="demo-strip"><span><span className="demo-dot" />Entorno de revisión</span><span>Expedientes y caja persistentes · Integraciones sin conectar</span><Badge>Fase 6 · Preparación local</Badge></div>
       <main id="contenido" tabIndex={-1} key={path} className="main-content">{content}</main><footer className="app-footer"><span>© 2026 Clix Web Studio <span className="footer-version">/ NotariaOS · Expedientes</span></span><span>Una notaría. Todo tu equipo.</span></footer>
     </div>
     {user?.mfa&&user.role!=='caja'&&<CaseSearch dialogRef={search}/>}

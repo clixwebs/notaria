@@ -1,0 +1,3879 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.deployment.config.ts"
+    ],
+    "configFile": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\playwright.deployment.config.ts",
+    "rootDir": "C:/Users/ANDRE/Desktop/ERP Notaria/NotariaOS/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/ANDRE/Desktop/ERP Notaria/NotariaOS/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/ANDRE/Desktop/ERP Notaria/NotariaOS/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "deployment.spec.ts"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e",
+        "snapshotDir": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e",
+        "testIgnore": [],
+        "testMatch": "deployment.spec.ts",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3101",
+          "channel": "chrome",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "trace": "off",
+          "screenshot": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "docs/evidence/deploy-neon-e2e.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "deployment.spec.ts",
+      "file": "deployment.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Fundamentos persistentes y permisos",
+          "file": "deployment.spec.ts",
+          "line": 25,
+          "column": 15,
+          "specs": [
+            {
+              "title": "sin sesión: rechaza datos, archivos y registro público; exige origen",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 22,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:07:12.189Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                            "line": 25,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-8ccf571db9d55bdddfe0",
+              "file": "deployment.spec.ts",
+              "line": 31,
+              "column": 3
+            },
+            {
+              "title": "sesión sin TOTP no puede acceder a datos; verificarlo habilita el núcleo",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4355,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:07:17.102Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                            "line": 25,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-9a5b6b281d1dd9d1fe96",
+              "file": "deployment.spec.ts",
+              "line": 37,
+              "column": 3
+            },
+            {
+              "title": "personas: persiste, evita duplicados y detecta actualización concurrente",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3735,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:07:21.469Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                            "line": 25,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-c62460c3f96a5b255c21",
+              "file": "deployment.spec.ts",
+              "line": 44,
+              "column": 3
+            },
+            {
+              "title": "documentos: cuarentena, liberación, descarga privada y versiones inmutables",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7754,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:07:25.214Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                            "line": 25,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-f1bfe94debbc8aee5714",
+              "file": "deployment.spec.ts",
+              "line": 52,
+              "column": 3
+            },
+            {
+              "title": "perfil caja no accede por API directa a personas, archivos o auditoría",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9127,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:07:32.981Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                            "line": 25,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-ba24d76fd4734227ce9c",
+              "file": "deployment.spec.ts",
+              "line": 62,
+              "column": 3
+            },
+            {
+              "title": "otro código de recuperación funciona una sola vez; revocar sesión la invalida",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10368,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:07:42.117Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                            "line": 25,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-70ccbb324b808c325b1e",
+              "file": "deployment.spec.ts",
+              "line": 74,
+              "column": 3
+            },
+            {
+              "title": "configuración concurrente y evidencia durable de lecturas y cambios",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3209,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:07:52.496Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                            "line": 25,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-e23b271b3cbc0153dd5f",
+              "file": "deployment.spec.ts",
+              "line": 87,
+              "column": 3
+            },
+            {
+              "title": "pantallas y formularios: sin errores, persistencia al recargar y cierre de sesión",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10093,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:07:55.714Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                            "line": 25,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-1c5a3efdef926829ff9d",
+              "file": "deployment.spec.ts",
+              "line": 94,
+              "column": 3
+            },
+            {
+              "title": "usuario nuevo configura TOTP desde la interfaz y edita una ficha persistente",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 13170,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:08:06.089Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                            "line": 25,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-8c3c3b7aa61e4b2dbc6d",
+              "file": "deployment.spec.ts",
+              "line": 101,
+              "column": 3
+            },
+            {
+              "title": "paleta negra y azul: contraste, reflujo y capturas en escritorio y móvil",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7323,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:08:19.274Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                            "line": 25,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-0fdfcfbf4ed01f9702cf",
+              "file": "deployment.spec.ts",
+              "line": 110,
+              "column": 3
+            },
+            {
+              "title": "expedientes: reintento idempotente y numeración interna concurrente sin duplicados",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 22284,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:08:26.608Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                            "line": 25,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-90681a80d73e92c5cc84",
+              "file": "phase3.scenarios.ts",
+              "line": 11,
+              "column": 3
+            },
+            {
+              "title": "instantánea de intervinientes y requisitos: no se reescribe historia ni se admite sustento ajeno",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 37985,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:08:48.901Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                            "line": 25,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-6cfc6f07e225d755773b",
+              "file": "phase3.scenarios.ts",
+              "line": 21,
+              "column": 3
+            },
+            {
+              "title": "roles de revisión y denegación por API directa de expedientes",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 20422,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:09:26.895Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                            "line": 25,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-a21844bb9dd5882ec644",
+              "file": "phase3.scenarios.ts",
+              "line": 34,
+              "column": 3
+            },
+            {
+              "title": "versiones: revisión exacta, invalidación por cambios y conservación de bytes/contexto anteriores",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 28962,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:09:47.327Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                            "line": 25,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-59880bb5ac83ebda9876",
+              "file": "phase3.scenarios.ts",
+              "line": 44,
+              "column": 3
+            },
+            {
+              "title": "presupuesto decimal, aceptación sobre versión exacta y orden sin movimientos de caja",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 30036,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:10:16.302Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                            "line": 25,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-13627234d5c31aa922b1",
+              "file": "phase3.scenarios.ts",
+              "line": 55,
+              "column": 3
+            },
+            {
+              "title": "tareas, observaciones, búsquedas y filtros persisten con auditoría",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 18282,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:10:46.360Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                            "line": 25,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-d3710c7ae94596ec2156",
+              "file": "phase3.scenarios.ts",
+              "line": 69,
+              "column": 3
+            },
+            {
+              "title": "interfaz: crea expediente, requisito, borrador y presupuesto; mantiene formularios ante conflicto",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 7000,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { name: /Expediente \\d{4}-/ })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByRole('heading', { name: /Expediente \\d{4}-/ }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: /Expediente \\d{4}-/ })\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { name: /Expediente \\d{4}-/ })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByRole('heading', { name: /Expediente \\d{4}-/ }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: /Expediente \\d{4}-/ })\u001b[22m\n\n    at C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\phase3.scenarios.ts:78:436",
+                        "location": {
+                          "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\phase3.scenarios.ts",
+                          "column": 436,
+                          "line": 78
+                        },
+                        "snippet": "  76 |   test('interfaz: crea expediente, requisito, borrador y presupuesto; mantiene formularios ante conflicto',async({browser})=>{\n  77 |     const context=await browser.newContext({storageState:options.storage()});const page=await context.newPage();const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));\n> 78 |     await page.goto(origin+'/expedientes/nuevo');await page.getByRole('radio',{name:'Carta notarial'}).check();await page.getByRole('combobox',{name:'Solicitante',exact:true}).selectOption(person);await page.getByLabel('Asunto del expediente').fill('Carta ficticia creada desde la interfaz');await page.getByRole('button',{name:'Crear expediente',exact:true}).click();await expect(page.getByRole('heading',{name:/Expediente \\d{4}-/})).toBeVisible();\n     |                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^\n  79 |     await page.getByRole('link',{name:'Requisitos',exact:true}).click();await page.getByRole('button',{name:'Revisar requisito'}).first().click();await page.getByRole('checkbox',{name:'Requisito revisado'}).check();await page.getByLabel('Constancia u observación').fill('Revisión desde la interfaz ficticia');await page.getByRole('button',{name:'Guardar revisión',exact:true}).click();await expect(page.getByRole('dialog')).toHaveCount(0);await page.reload();await expect(page.getByText('Revisión desde la interfaz ficticia',{exact:true})).toBeVisible();\n  80 |     await page.getByRole('link',{name:'Documento',exact:true}).click();await page.getByRole('button',{name:'Redactar primer borrador'}).click();await page.getByLabel('Contenido del borrador').fill('Carta notarial de prueba: contenido ficticio para revisar sin efectos legales.');await page.getByRole('button',{name:'Guardar nueva versión',exact:true}).click();await expect(page.getByRole('dialog')).toHaveCount(0);\n  81 |     await page.getByRole('link',{name:'Presupuesto',exact:true}).click();await page.getByRole('button',{name:'Crear presupuesto',exact:true}).click();await page.getByLabel('Descripción',{exact:true}).fill('Honorarios de carta de prueba');await page.getByLabel('Importe unitario en soles').fill('150.25');await page.getByRole('button',{name:'Guardar versión de presupuesto'}).click();await expect(page.getByRole('dialog')).toHaveCount(0);await expect(page.getByText('S/ 150.25').first()).toBeVisible();"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\phase3.scenarios.ts",
+                            "column": 436,
+                            "line": 78
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { name: /Expediente \\d{4}-/ })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" getByRole('heading', { name: /Expediente \\d{4}-/ }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: /Expediente \\d{4}-/ })\u001b[22m\n\n\n  76 |   test('interfaz: crea expediente, requisito, borrador y presupuesto; mantiene formularios ante conflicto',async({browser})=>{\n  77 |     const context=await browser.newContext({storageState:options.storage()});const page=await context.newPage();const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));\n> 78 |     await page.goto(origin+'/expedientes/nuevo');await page.getByRole('radio',{name:'Carta notarial'}).check();await page.getByRole('combobox',{name:'Solicitante',exact:true}).selectOption(person);await page.getByLabel('Asunto del expediente').fill('Carta ficticia creada desde la interfaz');await page.getByRole('button',{name:'Crear expediente',exact:true}).click();await expect(page.getByRole('heading',{name:/Expediente \\d{4}-/})).toBeVisible();\n     |                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^\n  79 |     await page.getByRole('link',{name:'Requisitos',exact:true}).click();await page.getByRole('button',{name:'Revisar requisito'}).first().click();await page.getByRole('checkbox',{name:'Requisito revisado'}).check();await page.getByLabel('Constancia u observación').fill('Revisión desde la interfaz ficticia');await page.getByRole('button',{name:'Guardar revisión',exact:true}).click();await expect(page.getByRole('dialog')).toHaveCount(0);await page.reload();await expect(page.getByText('Revisión desde la interfaz ficticia',{exact:true})).toBeVisible();\n  80 |     await page.getByRole('link',{name:'Documento',exact:true}).click();await page.getByRole('button',{name:'Redactar primer borrador'}).click();await page.getByLabel('Contenido del borrador').fill('Carta notarial de prueba: contenido ficticio para revisar sin efectos legales.');await page.getByRole('button',{name:'Guardar nueva versión',exact:true}).click();await expect(page.getByRole('dialog')).toHaveCount(0);\n  81 |     await page.getByRole('link',{name:'Presupuesto',exact:true}).click();await page.getByRole('button',{name:'Crear presupuesto',exact:true}).click();await page.getByLabel('Descripción',{exact:true}).fill('Honorarios de carta de prueba');await page.getByLabel('Importe unitario en soles').fill('150.25');await page.getByRole('button',{name:'Guardar versión de presupuesto'}).click();await expect(page.getByRole('dialog')).toHaveCount(0);await expect(page.getByText('S/ 150.25').first()).toBeVisible();\n    at C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\phase3.scenarios.ts:78:436"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:04.650Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                            "line": 25,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\test-results\\deployment-Fundamentos-per-d5740--formularios-ante-conflicto\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\phase3.scenarios.ts",
+                        "column": 436,
+                        "line": 78
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-b1183fd53f0c6289ae2f",
+              "file": "phase3.scenarios.ts",
+              "line": 76,
+              "column": 3
+            },
+            {
+              "title": "expediente y presupuesto: reflujo, contraste y navegación por teclado negro/azul",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-935a6efa95d87762d9c2",
+              "file": "phase3.scenarios.ts",
+              "line": 87,
+              "column": 3
+            },
+            {
+              "title": "finanzas: acceso por función, MFA y clientes por identidad, sin contenido jurídico para caja",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-5fc83e67752d3d7661cf",
+              "file": "phase4.scenarios.ts",
+              "line": 15,
+              "column": 3
+            },
+            {
+              "title": "presupuesto: aceptación no cobra; cargo explícito exacto una sola vez y excluye terceros",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-7a96e47bfae3c6c26f8b",
+              "file": "phase4.scenarios.ts",
+              "line": 37,
+              "column": 3
+            },
+            {
+              "title": "caja: apertura única, cobro parcial, anticipo, aplicación y devolución sin compensación implícita",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-c4e78f6a5fc9861919df",
+              "file": "phase4.scenarios.ts",
+              "line": 50,
+              "column": 3
+            },
+            {
+              "title": "proveedores, gasto autorizado con sustento y fondos de terceros sin invasión ni duplicación",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-05ec14adb2a7538699ea",
+              "file": "phase4.scenarios.ts",
+              "line": 64,
+              "column": 3
+            },
+            {
+              "title": "concurrencia: dos aplicaciones sobre la misma revisión conservan un único efecto",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-cadd69dab9efc327054d",
+              "file": "phase4.scenarios.ts",
+              "line": 88,
+              "column": 3
+            },
+            {
+              "title": "reversos: prohíbe borrar efectos dependientes y conserva original, saldo e identidad",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-a3216aaea6adf7fe9576",
+              "file": "phase4.scenarios.ts",
+              "line": 92,
+              "column": 3
+            },
+            {
+              "title": "conciliación manual: una línea única, retiro trazable y reverso sujeto a conciliación",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-e24474fce5b8c5556ba7",
+              "file": "phase4.scenarios.ts",
+              "line": 103,
+              "column": 3
+            },
+            {
+              "title": "cuenta consolidada: separa identidades iguales y agrega varios expedientes sin netear custodia",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-6ebf5d8da8328881b903",
+              "file": "phase4.scenarios.ts",
+              "line": 112,
+              "column": 3
+            },
+            {
+              "title": "cierre reproducible, diferencia declarada, bloqueo de movimientos y continuidad de apertura",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-2c391be760f75b6d2575",
+              "file": "phase4.scenarios.ts",
+              "line": 122,
+              "column": 3
+            },
+            {
+              "title": "UI financiera: cobro, constancia, cuenta por cliente y conflicto sin perder el formulario",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-230748bdcc9d8102551e",
+              "file": "phase4.scenarios.ts",
+              "line": 139,
+              "column": 3
+            },
+            {
+              "title": "ELDIAL negro/azul: caja y formularios accesibles en escritorio, móvil y oscuro",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-728455efdaed66df6918",
+              "file": "phase4.scenarios.ts",
+              "line": 156,
+              "column": 3
+            },
+            {
+              "title": "tarifario: autenticación, TOTP, origen, permiso servidor y catálogo vacío sin semillas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-6ba3c1b61e26c3ec6f64",
+              "file": "phase41.scenarios.ts",
+              "line": 16,
+              "column": 3
+            },
+            {
+              "title": "tarifario: reintentos concurrentes, huella y conflicto de revisión sin doble publicación",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-16767d8a6ae361cd96f5",
+              "file": "phase41.scenarios.ts",
+              "line": 31,
+              "column": 3
+            },
+            {
+              "title": "presupuesto: instantánea de tarifa verificada en servidor y aceptación sin movimiento financiero",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-3aec23332817ade8848c",
+              "file": "phase41.scenarios.ts",
+              "line": 44,
+              "column": 3
+            },
+            {
+              "title": "tarifa nueva o inactiva no reescribe presupuesto, aceptación ni orden; rechaza versión vieja y acto ajeno",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-f37972d813451e82dab0",
+              "file": "phase41.scenarios.ts",
+              "line": 56,
+              "column": 3
+            },
+            {
+              "title": "UI tarifario: versión, conflicto conservando formulario y publicación por Administración",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-d3a0752083beb54046f4",
+              "file": "phase41.scenarios.ts",
+              "line": 72,
+              "column": 3
+            },
+            {
+              "title": "UI presupuesto: elegir tarifa, importe exacto, procedencia y conversión manual explícita",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.791Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-846b3d9c8800a22d2dd0",
+              "file": "phase41.scenarios.ts",
+              "line": 82,
+              "column": 3
+            },
+            {
+              "title": "tarifario ELDIAL: teclado, escritorio, móvil, oscuro y errores de página",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-dc39be5881460b390339",
+              "file": "phase41.scenarios.ts",
+              "line": 92,
+              "column": 3
+            },
+            {
+              "title": "fiscal: catálogo vacío, sesión/TOTP/origen y permisos por acción; sin archivos para perfiles ajenos",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-0e6c048468f2767893b9",
+              "file": "phase42.scenarios.ts",
+              "line": 29,
+              "column": 3
+            },
+            {
+              "title": "preparación fiscal: UUID concurrente, decimal exacto, XML/QR inmutables y solo cargo propio",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-22c84838962d774efabc",
+              "file": "phase42.scenarios.ts",
+              "line": 40,
+              "column": 3
+            },
+            {
+              "title": "simulador: envío idempotente, resultado por clave/huella y aceptación sin movimientos de caja",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-03bf4af97340971bf3aa",
+              "file": "phase42.scenarios.ts",
+              "line": 53,
+              "column": 3
+            },
+            {
+              "title": "timeout posterior: bloquea reenvío, consulta concurrente recupera aceptación del mismo documento",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-926cb092ac67dce49a63",
+              "file": "phase42.scenarios.ts",
+              "line": 62,
+              "column": 3
+            },
+            {
+              "title": "timeout previo y fallo técnico: no encontrado y reintento con el mismo número; proceso separado",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-68dc61e0c70238d04277",
+              "file": "phase42.scenarios.ts",
+              "line": 69,
+              "column": 3
+            },
+            {
+              "title": "rechazo y descarte interno: historial intacto, nuevo número y boleta sin falsa baja/CDR",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-eb5630762064e93b8945",
+              "file": "phase42.scenarios.ts",
+              "line": 74,
+              "column": 3
+            },
+            {
+              "title": "cargo revertido y orígenes impropios: no prepara ni simula desde fondos de terceros o reversos",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-822abd7b397275f411f6",
+              "file": "phase42.scenarios.ts",
+              "line": 81,
+              "column": 3
+            },
+            {
+              "title": "UI fiscal: preparación con supuestos explícitos, timeout/consulta, XML bien formado y QR decodificado",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-6c582f2a4d48f1dfdf66",
+              "file": "phase42.scenarios.ts",
+              "line": 87,
+              "column": 3
+            },
+            {
+              "title": "ELDIAL fiscal: reflujo, contraste, teclado, móvil y oscuro con documentos de prueba",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-ce244f24f6e586c27a0e",
+              "file": "phase42.scenarios.ts",
+              "line": 99,
+              "column": 3
+            },
+            {
+              "title": "plantillas: catálogo vacío, permisos reales, TOTP y publicación profesional",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-f60864ef88aec93879ca",
+              "file": "phase43.scenarios.ts",
+              "line": 17,
+              "column": 3
+            },
+            {
+              "title": "plantillas: validación tipada y pertenencia antes de generar, sin efectos financieros",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-c7a08eb2696f831955aa",
+              "file": "phase43.scenarios.ts",
+              "line": 35,
+              "column": 3
+            },
+            {
+              "title": "plantillas: vista previa igual al borrador, doble clic idempotente y huella canónica",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-aad235fe2216e652fcaf",
+              "file": "phase43.scenarios.ts",
+              "line": 41,
+              "column": 3
+            },
+            {
+              "title": "plantillas: versiones y fichas nuevas conservan el documento y revisión anteriores",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-a9fcb3e300e898f2f50e",
+              "file": "phase43.scenarios.ts",
+              "line": 48,
+              "column": 3
+            },
+            {
+              "title": "plantillas: conflicto concurrente, nuevo borrador exige revisión y retirada impide nuevos usos",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-a64b0551a35f374b01d9",
+              "file": "phase43.scenarios.ts",
+              "line": 57,
+              "column": 3
+            },
+            {
+              "title": "plantillas UI: publicación, variables, vista previa y generación sin ejecutar el texto",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-1e727346f1ee41eb6b73",
+              "file": "phase43.scenarios.ts",
+              "line": 63,
+              "column": 3
+            },
+            {
+              "title": "plantillas UI: conflicto conserva formulario y requiere rebasar explícitamente la versión",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-e57f928e023dfe313321",
+              "file": "phase43.scenarios.ts",
+              "line": 68,
+              "column": 3
+            },
+            {
+              "title": "plantillas UI: campos tipados y recuperación de contexto sin perder valores",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-98854c375d23c43b456b",
+              "file": "phase43.scenarios.ts",
+              "line": 73,
+              "column": 3
+            },
+            {
+              "title": "plantillas ELDIAL: reflujo, teclado, contraste móvil y oscuro",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-94b4a9a876b0c04fb463",
+              "file": "phase43.scenarios.ts",
+              "line": 83,
+              "column": 3
+            },
+            {
+              "title": "procedimiento: permisos, segundo factor y aislamiento de evidencias",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-88e052626e0c9d544fca",
+              "file": "procedure.scenarios.ts",
+              "line": 21,
+              "column": 3
+            },
+            {
+              "title": "BK-15: no coincidencia, incertidumbre, consulta y excepción individual del notario",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-1af7e05b9aaa3810ba18",
+              "file": "procedure.scenarios.ts",
+              "line": 36,
+              "column": 3
+            },
+            {
+              "title": "BK-16: bloqueos, otorgamientos, asignación concurrente e idempotencia real",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-d7bab379aebc755639c4",
+              "file": "procedure.scenarios.ts",
+              "line": 47,
+              "column": 3
+            },
+            {
+              "title": "BK-16: incidencia, número no reutilizado y cambio documental no reescribe historia",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-230b85ffbe8513df89ba",
+              "file": "procedure.scenarios.ts",
+              "line": 58,
+              "column": 3
+            },
+            {
+              "title": "BK-16: dos expedientes concurrentes del mismo registro reciben números y folios distintos",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-628d355ac00b9ab422cf",
+              "file": "procedure.scenarios.ts",
+              "line": 68,
+              "column": 3
+            },
+            {
+              "title": "BK-17: certificación y entrega idempotente sin cambiar finanzas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-3d0d7ff5cd2be6afbfc6",
+              "file": "procedure.scenarios.ts",
+              "line": 73,
+              "column": 3
+            },
+            {
+              "title": "BK-17: varios intentos, desconocido aclarado, constancia y entrega separadas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-21299fa09dd74675c1f9",
+              "file": "procedure.scenarios.ts",
+              "line": 81,
+              "column": 3
+            },
+            {
+              "title": "procedimiento UI: recorrido completo de certificación entre administración y notario",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-222d8274390eb5bcb968",
+              "file": "procedure.scenarios.ts",
+              "line": 93,
+              "column": 3
+            },
+            {
+              "title": "procedimiento UI: identificación, formulario conservado, móvil, oscuro y constancia",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-c6ff1109d390fa348db8",
+              "file": "procedure.scenarios.ts",
+              "line": 100,
+              "column": 3
+            },
+            {
+              "title": "fase 5: autenticación y separación de PLAFT respecto de roles generales",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-b6dc1b5b9e0933dc89db",
+              "file": "compliance.scenarios.ts",
+              "line": 16,
+              "column": 2
+            },
+            {
+              "title": "BK-22: políticas y avisos versionados, consentimiento y retiro sin borrar historia",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.792Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-f8df9d070a75c3dbb17c",
+              "file": "compliance.scenarios.ts",
+              "line": 26,
+              "column": 2
+            },
+            {
+              "title": "BK-21: diligencia, dinero exacto, revisión humana e idempotencia concurrente",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-682d4ff47b99adcde413",
+              "file": "compliance.scenarios.ts",
+              "line": 33,
+              "column": 2
+            },
+            {
+              "title": "BK-22: ARCO exige legitimación y conserva bloqueo ante cancelación",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-83a8cd0e2e4a985be215",
+              "file": "compliance.scenarios.ts",
+              "line": 43,
+              "column": 2
+            },
+            {
+              "title": "BK-22: plazos ARCO y ampliación única comunicada, sin reescribir solicitud",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-4ec1d9c3a97b6c274d4d",
+              "file": "compliance.scenarios.ts",
+              "line": 52,
+              "column": 2
+            },
+            {
+              "title": "BK-22: incidentes por hito, no aplicación fundada y constancias separadas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-a03b7418de8e58e4f86c",
+              "file": "compliance.scenarios.ts",
+              "line": 57,
+              "column": 2
+            },
+            {
+              "title": "BK-23: exportación inmutable validada, descarga reservada y cargo explícito",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-f8e41fc57c6d65569be3",
+              "file": "compliance.scenarios.ts",
+              "line": 68,
+              "column": 2
+            },
+            {
+              "title": "fase 5: formulario real conserva datos ante conflicto y registra incidente",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-4d8d0e7c8f745b465407",
+              "file": "compliance.scenarios.ts",
+              "line": 76,
+              "column": 2
+            },
+            {
+              "title": "fase 5: privacidad y PLAFT en escritorio, móvil, oscuro y teclado sin filtraciones",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-3f874d79f559b4b4dcbe",
+              "file": "compliance.scenarios.ts",
+              "line": 80,
+              "column": 2
+            },
+            {
+              "title": "fase 5: revocación del custodio invalida sesión y descargas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-e3a6424ac8794636cda1",
+              "file": "compliance.scenarios.ts",
+              "line": 86,
+              "column": 2
+            },
+            {
+              "title": "fase 6: TOTP, origen, separación por canal y conexiones reales bloqueadas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-77e05cc89f796513ba02",
+              "file": "integration.scenarios.ts",
+              "line": 15,
+              "column": 2
+            },
+            {
+              "title": "BK-24: evaluación versionada y spike sin captura biométrica; concurrencia idempotente",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-6b62a33dd164a04f2761",
+              "file": "integration.scenarios.ts",
+              "line": 22,
+              "column": 2
+            },
+            {
+              "title": "BK-25: manifiesto exacto e inmutable, sin cargo por preparar o descargar",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-6497eb345f7c68a25d38",
+              "file": "integration.scenarios.ts",
+              "line": 27,
+              "column": 2
+            },
+            {
+              "title": "BK-25: firma inválida, revocada, indisponible y huella ajena bloquean cargo",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-7f5316f7fa3532fa0350",
+              "file": "integration.scenarios.ts",
+              "line": 30,
+              "column": 2
+            },
+            {
+              "title": "BK-25: validación exacta y cargo único, seguimiento distinto de inscripción real",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-784a2b2b7d87ee658f80",
+              "file": "integration.scenarios.ts",
+              "line": 35,
+              "column": 2
+            },
+            {
+              "title": "BK-25: archivo externo, informe y cargo privados declarados sin éxito criptográfico ficticio",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-c0fb47c287fe2806f26d",
+              "file": "integration.scenarios.ts",
+              "line": 38,
+              "column": 2
+            },
+            {
+              "title": "BK-26: evidencia de demo declarada ligada a XML exacto sin alterar fiscal ni finanzas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-8a9154ac95b14caa0d1f",
+              "file": "integration.scenarios.ts",
+              "line": 46,
+              "column": 2
+            },
+            {
+              "title": "fase 6: formulario conserva datos al actualizar conflicto, reflujo, oscuro, teclado y accesibilidad",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-4b77fec3040bc67ce83f",
+              "file": "integration.scenarios.ts",
+              "line": 49,
+              "column": 2
+            },
+            {
+              "title": "fase 6: revocar perfil invalida sesión y descarga del manifiesto",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-23f0ba90c839bee9d7ac",
+              "file": "integration.scenarios.ts",
+              "line": 54,
+              "column": 2
+            },
+            {
+              "title": "cerrar sesión revoca el acceso de servidor",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\deployment.spec.ts",
+                        "line": 25,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:11:11.793Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "f3e554c6199c48d65fc5-52af3c2b2958770d7a15",
+              "file": "deployment.spec.ts",
+              "line": 124,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-29T14:07:10.213Z",
+    "duration": 241603.67799999999,
+    "expected": 16,
+    "skipped": 66,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

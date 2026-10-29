@@ -105,3 +105,11 @@ Tres canales `/integraciones/reniec|sunarp|fiscal`, API `/api/integrations`. Cua
 Caja solo canal fiscal, sin recuentos/archivos jurídicos; Notario sin fiscal. Firma/informe/cargo soloNotario deejercicio, sin inferir habilitaciónreal. Mantener ELDIAL/Montserrat/login/barra/negro-azul/oscuro/móvil. QA nueva `.notaria-phase6-qa-*`, nunca principal. Verificadores con guardiaWindows y destructivas enmemoria; no dosprocesos porPGlite.
 
 Cierre local:52unitarias/83E2E correctas,15grupos integridad original/restaurada,51tablas iguales. QA03/restaurada detenidas; principal3100/sesión63919/Windows25260, sinaltasQA. Leer MEMORY y evidencia para copias, resultados y límites vigentes. No borrar intentos previos. RTK.md referenciado no disponible en ubicaciones revisadas.
+
+## Publicación autorizada · 29/10/2026
+
+El usuario autorizó crear Neon, publicar en `clixwebs/notaria` y Vercel. URL canónica `https://notariaos.vercel.app`. Leer ADR0011, guía de deployment y evidencia. Esta autorización no habilita SUNAT/RENIEC/SUNARP/firma/ROS o comunicaciones reales. No copiar datos/clave de `.notaria/` a nube ni QA a producción.
+
+Vercel exige PostgreSQL/secreto/URL explícitos. Runtime sin DDL; migración de release con NOTARIA_MIGRATE=1 desde terminal autorizada, nunca enVercel. Usar rol `notaria_runtime` sin privilegios elevados; propietario solo para migrar. Bootstrap público bloqueado, TOTP obligatorio; no guardar o imprimir credenciales, archivos.env o contraseña inicial. El usuario configura su propio autenticador.
+
+Evidencia localfase6 y despliegue se conservan separados. Neon:16escenarios del intento completo correctos/1timeoutUI/66noejecutados;8enfocados finales correctos bajo rol limitado. No afirmar83remotos verdes. Producción nueva contiene solo cuenta administradora confirmada, sin personas/casosQA. Archivos <4MB enVercel hasta canal de carga dedicado. QAservidor detenido al cerrar pruebas.

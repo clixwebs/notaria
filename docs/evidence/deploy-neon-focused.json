@@ -1,0 +1,543 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.cloud-smoke.config.ts"
+    ],
+    "configFile": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\playwright.cloud-smoke.config.ts",
+    "rootDir": "C:/Users/ANDRE/Desktop/ERP Notaria/NotariaOS/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/ANDRE/Desktop/ERP Notaria/NotariaOS/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/ANDRE/Desktop/ERP Notaria/NotariaOS/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "cloud-smoke.spec.ts"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e",
+        "snapshotDir": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e",
+        "testIgnore": [],
+        "testMatch": "cloud-smoke.spec.ts",
+        "timeout": 120000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3101",
+          "channel": "chrome",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "trace": "off",
+          "screenshot": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "docs/evidence/deploy-neon-focused.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "cloud-smoke.spec.ts",
+      "file": "cloud-smoke.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Despliegue con PostgreSQL real y rol restringido",
+          "file": "cloud-smoke.spec.ts",
+          "line": 9,
+          "column": 15,
+          "specs": [
+            {
+              "title": "el runtime no puede crear esquemas ni roles y solo lee las migraciones aplicadas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                        "line": 9,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 410,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:19:45.601Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                            "line": 9,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "de5285df2e157a621dc9-e988572e5ff993f38fc3",
+              "file": "cloud-smoke.spec.ts",
+              "line": 12,
+              "column": 2
+            },
+            {
+              "title": "sesión pendiente de TOTP no obtiene datos; configurar TOTP habilita la QA",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                        "line": 9,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5344,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:19:48.054Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                            "line": 9,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "de5285df2e157a621dc9-3a4ca6349b6040070f86",
+              "file": "cloud-smoke.spec.ts",
+              "line": 13,
+              "column": 2
+            },
+            {
+              "title": "permisos, origen y reserva PLAFT se mantienen en PostgreSQL",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                        "line": 9,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4507,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:19:53.412Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                            "line": 9,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "de5285df2e157a621dc9-2096ba45c74af690d70a",
+              "file": "cloud-smoke.spec.ts",
+              "line": 14,
+              "column": 2
+            },
+            {
+              "title": "expediente concurrente idempotente y presupuesto decimal exacto",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                        "line": 9,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9339,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:19:57.929Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                            "line": 9,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "de5285df2e157a621dc9-74148c1fe515a5eebae7",
+              "file": "cloud-smoke.spec.ts",
+              "line": 15,
+              "column": 2
+            },
+            {
+              "title": "archivo privado conserva bytes y cuarentena en Neon",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                        "line": 9,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4070,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:20:07.280Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                            "line": 9,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "de5285df2e157a621dc9-1a894ad7eecc5d3be0c8",
+              "file": "cloud-smoke.spec.ts",
+              "line": 16,
+              "column": 2
+            },
+            {
+              "title": "auditoría append-only y rollback nativo sin efectos parciales",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                        "line": 9,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1691,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:20:11.366Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                            "line": 9,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "de5285df2e157a621dc9-56524fdb54447a1ac1b7",
+              "file": "cloud-smoke.spec.ts",
+              "line": 17,
+              "column": 2
+            },
+            {
+              "title": "la creación desde interfaz completa bajo latencia de PostgreSQL remoto",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                        "line": 9,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8256,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:20:13.068Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                            "line": 9,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "de5285df2e157a621dc9-07febf456c32323f4414",
+              "file": "cloud-smoke.spec.ts",
+              "line": 18,
+              "column": 2
+            },
+            {
+              "title": "cerrar sesión revoca el acceso en servidor",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                        "line": 9,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1077,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:20:21.497Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                            "line": 9,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "de5285df2e157a621dc9-fe18e146f3be846d0066",
+              "file": "cloud-smoke.spec.ts",
+              "line": 19,
+              "column": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-29T14:19:43.804Z",
+    "duration": 38879.871,
+    "expected": 8,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,3 +1,17 @@
+# Estado vigente · Publicación autorizada
+
+29/10/2026 · NotariaOS0.7.0. El usuario autorizó explícitamente publicar en su repositorio `https://github.com/clixwebs/notaria.git`, crear Neon y Vercel. Esa autorización supera el bloqueo de publicación anterior para este alojamiento, **no** para RENIEC/SUNARP/SUNAT/firma/ROS/notificaciones. Se crearon recursos nuevos sin tocar los otros proyectos.
+
+URL canónica `https://notariaos.vercel.app/acceso`, Vercel equipoCLIX/proyecto`notariaos` (`prj_8WVYRrhn339FLBaaYWmxxRwFmMDz`), GitHubmain. Neon proyecto`frosty-truth-22823896`, PostgreSQL17/aws-us-east-2, producción`br-calm-water-b55d1nru`, QAseparada`br-mute-feather-b54xgffv`. No se migraron datos/clave de `.notaria/`; producción vacía salvo primera cuenta de Jose Gonzalez con el correo expresamente confirmado en chat. Contraseña aleatoria en archivo local `.env.access.local`, ignorado; no guardar credenciales en memoria/repositorio ni activar TOTP por el usuario.
+
+Leer ADR0011 y `docs/deployment/VERCEL-NEON.md`. Vercel exigeDATABASE_URL/BETTER_AUTH_SECRET/NOTARIA_URL, sin fallbackPGlite ni escrituras locales. PostgreSQL no migra en peticiones: comando explícito `scripts/migrate-postgres.ts` conNOTARIA_MIGRATE=1, fuera deVercel. Migraciones1–11 aplicadas a ambasbases. Runtime`notaria_runtime` sin superusuario/CREATEDB/CREATEROLE/CREATEschema, permisosCRUD/secuencias explícitos. API Neon creaba roles conneon_superuser; se reemplazaron víaSQL y eliminaron los provisionales. Vercel almacena conexión limitada/secreto/URL cifrados; no las claves de gestión. Bootstrap web externo sigue bloqueado; `scripts/provision-admin.ts` solo desde terminal autorizada. Cuenta inicial conTOTP pendiente, loginreal y bloqueo de datos comprobados sin inscribir autenticador.
+
+La regresión histórica local83/52 y evidenciasfase6 siguen conservadas. El intento completo Neon pasó16 y falló por timeoutUI5s mostrandoCargando;66no ejecutadas. No declararlo83verde enNeon. Configuración remota amplía esperas; prueba enfocada cubre rolrestringido/TOTP/permisos/reserva/concurrencia/dinero/bytes/rollback/UI/logout. Resultados finales en evidencia de despliegue. Archivos <4MB enVercel por límite del proveedor; no afirmar capacidadlocal5MB como capacidadcloud. Alojamiento de revisión, no piloto/homologación; integraciones reales siguen bloqueadas.
+
+---
+
+# Antecedente local conservado
+
 # Estado vigente de NotariaOS
 
 Actualizado:29/10/2026 · America/Lima · **0.7.0** · Fase6, alcance local integrado entregado. **Fase real sin cerrar**.
@@ -219,3 +233,5 @@ RTK leído en `C:/Users/ANDRE/.claude/RTK.md`; instalado0.44.2 verificado. Su ho
 Evidencia finalfase5:127 fuentes SHA-256 y261 enlaces locales comprobados,0 rotos.
 
 Cierre documentalfase6:142fuentes SHA-256; enlaces locales verificados en fase-6-documentacion.json,0rotos. Solo cinco fuentes anteriores modificadas; sin cambios de reglas económicas/fiscales/PLAFT/procedimiento.
+
+Cierre de pruebas cloud:8enfocadas PostgreSQL correctas (38.9s),0fallos/omitidas/reintentos; JSONdeploy-neon-focused. Preservados2intentos de aserciones/contrato, sin cambios al dominio. HTTPS/login inicial/bloqueoTOTP/bootstrap403 verificados. Producción1staff,0personas/casos/documentos/cuentasQA y11migraciones. Las claves de gestión solo se utilizaron para el despliegue autorizado y no están enGit niVercelruntime. `.env.access.local` conserva la contraseña inicial únicamente en el equipo del usuario; ignorado porGit. QAservidor3101 detenido. Ver evidencia de despliegue para revisión exacta y estado de cierre.

@@ -1,0 +1,542 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.cloud-smoke.config.ts"
+    ],
+    "configFile": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\playwright.cloud-smoke.config.ts",
+    "rootDir": "C:/Users/ANDRE/Desktop/ERP Notaria/NotariaOS/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/ANDRE/Desktop/ERP Notaria/NotariaOS/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/ANDRE/Desktop/ERP Notaria/NotariaOS/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "cloud-smoke.spec.ts"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e",
+        "snapshotDir": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e",
+        "testIgnore": [],
+        "testMatch": "cloud-smoke.spec.ts",
+        "timeout": 120000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3101",
+          "channel": "chrome",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "trace": "off",
+          "screenshot": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "docs/evidence/deploy-neon-focused.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "cloud-smoke.spec.ts",
+      "file": "cloud-smoke.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Despliegue con PostgreSQL real y rol restringido",
+          "file": "cloud-smoke.spec.ts",
+          "line": 9,
+          "column": 15,
+          "specs": [
+            {
+              "title": "el runtime no puede crear esquemas ni roles y solo lee las migraciones aplicadas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                        "line": 9,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 399,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:17:36.450Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                            "line": 9,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "de5285df2e157a621dc9-e988572e5ff993f38fc3",
+              "file": "cloud-smoke.spec.ts",
+              "line": 12,
+              "column": 2
+            },
+            {
+              "title": "sesión pendiente de TOTP no obtiene datos; configurar TOTP habilita la QA",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                        "line": 9,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5268,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:17:38.835Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                            "line": 9,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "de5285df2e157a621dc9-3a4ca6349b6040070f86",
+              "file": "cloud-smoke.spec.ts",
+              "line": 13,
+              "column": 2
+            },
+            {
+              "title": "permisos, origen y reserva PLAFT se mantienen en PostgreSQL",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                        "line": 9,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4472,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:17:44.115Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                            "line": 9,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "de5285df2e157a621dc9-2096ba45c74af690d70a",
+              "file": "cloud-smoke.spec.ts",
+              "line": 14,
+              "column": 2
+            },
+            {
+              "title": "expediente concurrente idempotente y presupuesto decimal exacto",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                        "line": 9,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5609,
+                      "error": {
+                        "message": "Error: {\"message\":\"Unrecognized key: \\\"requestId\\\"\"}\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m400\u001b[39m",
+                        "stack": "Error: {\"message\":\"Unrecognized key: \\\"requestId\\\"\"}\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m400\u001b[39m\n    at C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts:15:928",
+                        "location": {
+                          "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                          "column": 928,
+                          "line": 15
+                        },
+                        "snippet": "  13 |  test('sesión pendiente de TOTP no obtiene datos; configurar TOTP habilita la QA',async()=>{let r=await post('/api/auth/sign-in/email',{email,password});if(r.status()===429){await new Promise(r=>setTimeout(r,61000));r=await post('/api/auth/sign-in/email',{email,password});}expect(r.status()).toBe(200);expect((await ctx.get('/api/platform/people')).status()).toBe(403);const enabled=await post('/api/auth/two-factor/enable',{password});expect(enabled.status()).toBe(200);const data=await enabled.json();const secret=new URL(data.totpURI).searchParams.get('secret')!;const code=await createOTP(base32.decode(secret)).totp();expect((await post('/api/auth/two-factor/verify-totp',{code,trustDevice:false})).status()).toBe(200);storage=await ctx.storageState();});\n  14 |  test('permisos, origen y reserva PLAFT se mantienen en PostgreSQL',async()=>{expect((await ctx.get('/api/compliance?area=plaft')).status()).toBe(403);expect((await ctx.get('/api/finance')).status()).toBe(200);expect((await ctx.get('/api/fiscal')).status()).toBe(200);expect((await ctx.post('/api/platform/people',{headers:{Origin:'https://other.test'},data:{}})).status()).toBe(403);});\n> 15 |  test('expediente concurrente idempotente y presupuesto decimal exacto',async()=>{let r=await post('/api/platform/people',{name:'Cloud titular ficticio',documentType:'DEMO',documentNumber:'CLOUD-'+randomUUID().slice(0,8)});expect(r.status()).toBe(200);personId=(await r.json()).id;const body={requestId:randomUUID(),personId,act:'Carta notarial',subject:'QA cloud sin efecto legal'};const pair=await Promise.all([post('/api/cases',body),post('/api/cases',body)]);expect(pair.map(r=>r.status())).toEqual([200,200]);const a=await pair[0].json(),b=await pair[1].json();expect(a.id).toBe(b.id);caseId=a.id;const d=await(await ctx.get('/api/cases/'+caseId)).json();r=await post('/api/cases/'+caseId,{requestId:randomUUID(),type:'quote',revision:d.revision,baseVersion:0,validUntil:'2027-12-31',lines:[{description:'Honorarios ficticios cloud',quantity:3,unitAmount:'0.10',category:'Honorarios'}]});expect(r.status(),await r.text()).toBe(200);const n=await(await ctx.get('/api/cases/'+caseId)).json();expect(n.quotes[0].total).toBe('0.30');});\n     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ^\n  16 |  test('archivo privado conserva bytes y cuarentena en Neon',async()=>{const data='Sustento cloud sintético sin datos reales';const r=await ctx.post('/api/platform/documents',{headers:{Origin:origin},multipart:{personId,title:'Cloud prueba privada',file:{name:'qa-cloud.txt',mimeType:'text/plain',buffer:Buffer.from(data)}}});expect(r.status()).toBe(200);const id=(await r.json()).id;expect((await ctx.get('/api/platform/documents/'+id+'/download')).status()).toBe(423);expect((await post('/api/platform/documents/'+id+'/review',{status:'liberado',note:'Revisión manual sintética para QA cloud.'})).status()).toBe(200);expect(await(await ctx.get('/api/platform/documents/'+id+'/download')).text()).toBe(data);});\n  17 |  test('auditoría append-only y rollback nativo sin efectos parciales',async()=>{const {db}=await platform();await expect(query(db,'UPDATE audit_events SET action=action')).rejects.toThrow(/append-only/);await expect(query(db,'DELETE FROM case_quotes WHERE case_id=$1',[caseId])).rejects.toThrow(/append-only/);const before=await query(db,'SELECT count(*)::int AS n FROM audit_events');await expect(db.transaction().execute(async tx=>{await query(tx,\"INSERT INTO audit_events(action,resource) VALUES('qa.rollback','cloud')\");throw new Error('QA rollback');})).rejects.toThrow('QA rollback');expect(await query(db,'SELECT count(*)::int AS n FROM audit_events')).toEqual(before);});\n  18 |  test('la creación desde interfaz completa bajo latencia de PostgreSQL remoto',async({browser})=>{const b=await browser.newContext({storageState:storage}),p=await b.newPage();await p.goto(origin+'/expedientes/nuevo');await p.getByRole('radio',{name:'Carta notarial'}).check();await p.getByRole('combobox',{name:'Solicitante',exact:true}).selectOption(personId);await p.getByLabel('Asunto del expediente').fill('Creación UI con PostgreSQL remoto real');await p.getByRole('button',{name:'Crear expediente',exact:true}).click();await expect(p.getByRole('heading',{name:/Expediente \\d{4}-/})).toBeVisible();await p.screenshot({path:'docs/evidence/deploy-neon-expediente.png',fullPage:true});await b.close();});"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                            "column": 928,
+                            "line": 15
+                          },
+                          "message": "Error: {\"message\":\"Unrecognized key: \\\"requestId\\\"\"}\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m400\u001b[39m\n\n  13 |  test('sesión pendiente de TOTP no obtiene datos; configurar TOTP habilita la QA',async()=>{let r=await post('/api/auth/sign-in/email',{email,password});if(r.status()===429){await new Promise(r=>setTimeout(r,61000));r=await post('/api/auth/sign-in/email',{email,password});}expect(r.status()).toBe(200);expect((await ctx.get('/api/platform/people')).status()).toBe(403);const enabled=await post('/api/auth/two-factor/enable',{password});expect(enabled.status()).toBe(200);const data=await enabled.json();const secret=new URL(data.totpURI).searchParams.get('secret')!;const code=await createOTP(base32.decode(secret)).totp();expect((await post('/api/auth/two-factor/verify-totp',{code,trustDevice:false})).status()).toBe(200);storage=await ctx.storageState();});\n  14 |  test('permisos, origen y reserva PLAFT se mantienen en PostgreSQL',async()=>{expect((await ctx.get('/api/compliance?area=plaft')).status()).toBe(403);expect((await ctx.get('/api/finance')).status()).toBe(200);expect((await ctx.get('/api/fiscal')).status()).toBe(200);expect((await ctx.post('/api/platform/people',{headers:{Origin:'https://other.test'},data:{}})).status()).toBe(403);});\n> 15 |  test('expediente concurrente idempotente y presupuesto decimal exacto',async()=>{let r=await post('/api/platform/people',{name:'Cloud titular ficticio',documentType:'DEMO',documentNumber:'CLOUD-'+randomUUID().slice(0,8)});expect(r.status()).toBe(200);personId=(await r.json()).id;const body={requestId:randomUUID(),personId,act:'Carta notarial',subject:'QA cloud sin efecto legal'};const pair=await Promise.all([post('/api/cases',body),post('/api/cases',body)]);expect(pair.map(r=>r.status())).toEqual([200,200]);const a=await pair[0].json(),b=await pair[1].json();expect(a.id).toBe(b.id);caseId=a.id;const d=await(await ctx.get('/api/cases/'+caseId)).json();r=await post('/api/cases/'+caseId,{requestId:randomUUID(),type:'quote',revision:d.revision,baseVersion:0,validUntil:'2027-12-31',lines:[{description:'Honorarios ficticios cloud',quantity:3,unitAmount:'0.10',category:'Honorarios'}]});expect(r.status(),await r.text()).toBe(200);const n=await(await ctx.get('/api/cases/'+caseId)).json();expect(n.quotes[0].total).toBe('0.30');});\n     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ^\n  16 |  test('archivo privado conserva bytes y cuarentena en Neon',async()=>{const data='Sustento cloud sintético sin datos reales';const r=await ctx.post('/api/platform/documents',{headers:{Origin:origin},multipart:{personId,title:'Cloud prueba privada',file:{name:'qa-cloud.txt',mimeType:'text/plain',buffer:Buffer.from(data)}}});expect(r.status()).toBe(200);const id=(await r.json()).id;expect((await ctx.get('/api/platform/documents/'+id+'/download')).status()).toBe(423);expect((await post('/api/platform/documents/'+id+'/review',{status:'liberado',note:'Revisión manual sintética para QA cloud.'})).status()).toBe(200);expect(await(await ctx.get('/api/platform/documents/'+id+'/download')).text()).toBe(data);});\n  17 |  test('auditoría append-only y rollback nativo sin efectos parciales',async()=>{const {db}=await platform();await expect(query(db,'UPDATE audit_events SET action=action')).rejects.toThrow(/append-only/);await expect(query(db,'DELETE FROM case_quotes WHERE case_id=$1',[caseId])).rejects.toThrow(/append-only/);const before=await query(db,'SELECT count(*)::int AS n FROM audit_events');await expect(db.transaction().execute(async tx=>{await query(tx,\"INSERT INTO audit_events(action,resource) VALUES('qa.rollback','cloud')\");throw new Error('QA rollback');})).rejects.toThrow('QA rollback');expect(await query(db,'SELECT count(*)::int AS n FROM audit_events')).toEqual(before);});\n  18 |  test('la creación desde interfaz completa bajo latencia de PostgreSQL remoto',async({browser})=>{const b=await browser.newContext({storageState:storage}),p=await b.newPage();await p.goto(origin+'/expedientes/nuevo');await p.getByRole('radio',{name:'Carta notarial'}).check();await p.getByRole('combobox',{name:'Solicitante',exact:true}).selectOption(personId);await p.getByLabel('Asunto del expediente').fill('Creación UI con PostgreSQL remoto real');await p.getByRole('button',{name:'Crear expediente',exact:true}).click();await expect(p.getByRole('heading',{name:/Expediente \\d{4}-/})).toBeVisible();await p.screenshot({path:'docs/evidence/deploy-neon-expediente.png',fullPage:true});await b.close();});\n    at C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts:15:928"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:17:48.599Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                            "line": 9,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\test-results\\cloud-smoke-Despliegue-con-c2589--presupuesto-decimal-exacto\\error-context.md"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\test-results\\cloud-smoke-Despliegue-con-c2589--presupuesto-decimal-exacto\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                        "column": 928,
+                        "line": 15
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "de5285df2e157a621dc9-74148c1fe515a5eebae7",
+              "file": "cloud-smoke.spec.ts",
+              "line": 15,
+              "column": 2
+            },
+            {
+              "title": "archivo privado conserva bytes y cuarentena en Neon",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                        "line": 9,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:17:54.244Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "de5285df2e157a621dc9-1a894ad7eecc5d3be0c8",
+              "file": "cloud-smoke.spec.ts",
+              "line": 16,
+              "column": 2
+            },
+            {
+              "title": "auditoría append-only y rollback nativo sin efectos parciales",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                        "line": 9,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:17:54.244Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "de5285df2e157a621dc9-56524fdb54447a1ac1b7",
+              "file": "cloud-smoke.spec.ts",
+              "line": 17,
+              "column": 2
+            },
+            {
+              "title": "la creación desde interfaz completa bajo latencia de PostgreSQL remoto",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                        "line": 9,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:17:54.245Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "de5285df2e157a621dc9-07febf456c32323f4414",
+              "file": "cloud-smoke.spec.ts",
+              "line": 18,
+              "column": 2
+            },
+            {
+              "title": "cerrar sesión revoca el acceso en servidor",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\cloud-smoke.spec.ts",
+                        "line": 9,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": -1,
+                      "parallelIndex": -1,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T14:17:54.245Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "de5285df2e157a621dc9-fe18e146f3be846d0066",
+              "file": "cloud-smoke.spec.ts",
+              "line": 19,
+              "column": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-29T14:17:34.746Z",
+    "duration": 19522.23,
+    "expected": 3,
+    "skipped": 4,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}
