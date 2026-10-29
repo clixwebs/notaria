@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-29T17:06:47.643Z",
+  "provider": "apiperu.dev",
+  "contract": "POST /dni",
+  "sample": "example in official documentation",
+  "found": true,
+  "identityVerified": false,
+  "elapsedMs": 622,
+  "personalDataSaved": false
+}

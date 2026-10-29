@@ -11,7 +11,7 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "test:e2e": "playwright test --config playwright.phase6.config.ts",
-    "test": "tsx --test tests/domain.test.ts tests/platform.test.ts tests/cases.test.ts tests/finance.test.ts tests/tariffs.test.ts tests/fiscal.test.ts tests/templates.test.ts tests/procedures.test.ts tests/compliance.test.ts tests/integrations.test.ts",
+    "test": "tsx --test tests/domain.test.ts tests/platform.test.ts tests/person-lookup.test.ts tests/cases.test.ts tests/finance.test.ts tests/tariffs.test.ts tests/fiscal.test.ts tests/templates.test.ts tests/procedures.test.ts tests/compliance.test.ts tests/integrations.test.ts",
     "backup:local": "tsx scripts/backup-local.ts",
     "restore:local": "tsx scripts/restore-local.ts",
     "test:procedure": "playwright test --config playwright.procedure-focused.config.ts"

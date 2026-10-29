@@ -26,6 +26,8 @@ No usar `backup-local.ts`/`restore-local.ts` con Neon: esos comandos son de PGli
 
 ## Variables y archivos
 
+AutocompletadoDNI autorizado posteriormente: producción añade `APIPERU_TOKEN` cifrado, solo servidor, reutilizado con autorización explícita deElDial. No configurar enpreviews niNEXT_PUBLIC. Su cuota corresponde a la misma cuenta del proveedor. [ADR0013](../adr/0013-autocompletado-dni-apiperu.md). Esto no habilita identificación notarialRENIEC ni las demás integraciones reales.
+
 Vercel almacena cifradas `DATABASE_URL`, `BETTER_AUTH_SECRET`, `NOTARIA_URL`. `VERCEL` es proporcionada por la plataforma. No configurar `NOTARIA_MIGRATE` en funciones. No hay claves administrativas de Vercel/Neon en el runtime. Para este alojamiento, usar archivos privados menores a4MB por el límite de la función; la capacidad local de5MB no amplía el límite del proveedor.
 
 Las credenciales entregadas en el chat no deben conservarse en el historial del repositorio; se recomienda rotarlas después de finalizar el despliegue. La contraseña inicial es un secreto distinto y no se publica.

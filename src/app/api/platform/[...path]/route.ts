@@ -3,6 +3,7 @@ import { z } from 'zod';
 import { platform, query, audit, baseURL } from '@/server/platform';
 import { actor, assertOrigin, HttpError, requirePerson } from '@/server/access';
 import { credentials, personInput, rolesInput, validateFile } from '@/server/validation';
+import {lookupPerson,personLookupInput} from '@/server/person-lookup';
 export const runtime = 'nodejs';
 const uuid = z.uuid();
 async function json(request: Request) {
@@ -46,6 +47,18 @@ async function handler(request: Request, context: { params: Promise<{ path: stri
     if (area==='me' && method==='GET') return result(await actor(request.headers,undefined,{enrollment:true}));
     if (area==='people') {
       const user = await actor(request.headers,method==='GET'?'people:read':'people:write');
+      if(id==='lookup'&&method==='POST'){
+        const input=personLookupInput.parse(await json(request));
+        // A durable per-user budget shared by all Vercel instances. No DNI/name in logs.
+        await db.transaction().execute(async tx=>{
+          await query(tx,'SELECT user_id FROM staff WHERE user_id=$1 AND office_id=$2 FOR UPDATE',[user.id,user.office]);
+          const [count]=await query<{n:number}>(tx,"SELECT count(*)::int AS n FROM audit_events WHERE actor_id=$1 AND action='person.lookup.request' AND at>now()-interval '1 minute'",[user.id]);
+          if(count.n>=10)throw new HttpError(429,'Alcanzaste el límite de consultas. Espera un minuto o completa el nombre manualmente.');
+          await audit(tx,user.id,'person.lookup.request','provider:apiperu','attempt');
+        });
+        try{const found=await lookupPerson(input);await audit(db,user.id,'person.lookup.result','provider:apiperu','found');return result(found);}
+        catch(error){await audit(db,user.id,'person.lookup.result','provider:apiperu',error instanceof HttpError?'http-'+error.status:'failed');throw error;}
+      }
       if (method==='GET') return result(await db.transaction().execute(async tx => {
         await audit(tx,user.id,'people.list','office:'+user.office);
         return query(tx,'SELECT id,name,document_type,document_number,revision,created_at FROM persons WHERE office_id=$1 ORDER BY created_at DESC LIMIT 200',[user.office]);

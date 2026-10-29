@@ -1,0 +1,491 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.person-lookup.config.ts"
+    ],
+    "configFile": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\playwright.person-lookup.config.ts",
+    "rootDir": "C:/Users/ANDRE/Desktop/ERP Notaria/NotariaOS/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/ANDRE/Desktop/ERP Notaria/NotariaOS/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/ANDRE/Desktop/ERP Notaria/NotariaOS/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "person-lookup.spec.ts"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e",
+        "snapshotDir": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e",
+        "testIgnore": [],
+        "testMatch": "person-lookup.spec.ts",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3101",
+          "channel": "chrome",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "trace": "off",
+          "screenshot": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "docs/evidence/person-lookup-e2e.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "person-lookup.spec.ts",
+      "file": "person-lookup.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Autocompletado DNI en QA aislada con proveedor controlado",
+          "file": "person-lookup.spec.ts",
+          "line": 8,
+          "column": 15,
+          "specs": [
+            {
+              "title": "consulta exige sesión, TOTP, origen y contrato válido",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\person-lookup.spec.ts",
+                        "line": 8,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 224,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T17:08:31.798Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\person-lookup.spec.ts",
+                            "line": 8,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "edbb354a79b23c8f00f3-c725e5f6bf0fc5687ccc",
+              "file": "person-lookup.spec.ts",
+              "line": 15,
+              "column": 2
+            },
+            {
+              "title": "al completar DNI trae nombre, guarda ficha y la conserva al recargar",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\person-lookup.spec.ts",
+                        "line": 8,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1656,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T17:08:35.245Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\person-lookup.spec.ts",
+                            "line": 8,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "edbb354a79b23c8f00f3-24ca7c43b7ac2f25b310",
+              "file": "person-lookup.spec.ts",
+              "line": 26,
+              "column": 2
+            },
+            {
+              "title": "respuestas atrasadas y cambios manuales no pisan el formulario actual",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\person-lookup.spec.ts",
+                        "line": 8,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6405,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T17:08:37.070Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\person-lookup.spec.ts",
+                            "line": 8,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "edbb354a79b23c8f00f3-92974d88cc8f16cf01c6",
+              "file": "person-lookup.spec.ts",
+              "line": 39,
+              "column": 2
+            },
+            {
+              "title": "sin resultado admite captura manual y DEMO no envía consultas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\person-lookup.spec.ts",
+                        "line": 8,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2249,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T17:08:43.487Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\person-lookup.spec.ts",
+                            "line": 8,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "edbb354a79b23c8f00f3-7d3c968e49bc7ca87630",
+              "file": "person-lookup.spec.ts",
+              "line": 45,
+              "column": 2
+            },
+            {
+              "title": "editar no consulta silenciosamente y crear expediente conserva la instantánea",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\person-lookup.spec.ts",
+                        "line": 8,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1304,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T17:08:45.749Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\person-lookup.spec.ts",
+                            "line": 8,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "edbb354a79b23c8f00f3-b73859491c5052d17c2e",
+              "file": "person-lookup.spec.ts",
+              "line": 51,
+              "column": 2
+            },
+            {
+              "title": "Caja no obtiene datos del proveedor y la auditoría no guarda DNI/nombres",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\person-lookup.spec.ts",
+                        "line": 8,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 232,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T17:08:47.063Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\person-lookup.spec.ts",
+                            "line": 8,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "edbb354a79b23c8f00f3-13672c11ad2323bdf33f",
+              "file": "person-lookup.spec.ts",
+              "line": 55,
+              "column": 2
+            },
+            {
+              "title": "límite durable de consultas se respeta con solicitudes concurrentes",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\person-lookup.spec.ts",
+                        "line": 8,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 66,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T17:08:47.302Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\person-lookup.spec.ts",
+                            "line": 8,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "edbb354a79b23c8f00f3-dfe14d676a73d61ec3f4",
+              "file": "person-lookup.spec.ts",
+              "line": 61,
+              "column": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-29T17:08:31.316Z",
+    "duration": 16160.086,
+    "expected": 7,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

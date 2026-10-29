@@ -1,4 +1,14 @@
-# Estado vigente · Demostración publicada con datos ficticios
+# Estado vigente · Autocompletado DNI autorizado
+
+29/10/2026. El usuario pidió consulta automática al registrar persona y autorizó explícitamente reutilizar **soloAPIPERU_TOKEN deElDial**. Referencia leída solo para código/esa variable, sin otros secretos,bases/clientes o cambios. Se conectaapiperu.dev porPOSTcontrato actual para completar nombres/apellidos. Token cifradoVercel producción, servidor únicamente. No esRENIEC ni acredita identidad; no dirección/biometría/capacidad. GateRENIEC notarial/SUNARP/fiscal reales permanecenfalse. ADR0013/evidencia`person-lookup.md`.
+
+Alta de persona porDNI8dígitos autocompleta tras700ms; tipoDEMO/CE/PASAPORTE manual, edición existente sinconsulta automática. Guardado explícito. EndpointprivadoPOSTpeople/lookup con origen/sesión/TOTP/people:write;Caja403. Auditoría de intentos/resultados sin DNI/nombres,presupuesto durable10/min/usuario con lockfila,hostfijo,tokenservidor,timeout8s,sinredirect,16KiB y coincidenciaDNI. Protección ante respuestas atrasadas y escritura manual; fallback/reintento. Sin migración,semillas o efectos financieros/jurídicos.
+
+57unitarias y7E2E/API correctos,build/TypeScript/lint correctos. QA-01 yQA-02 nuevas separadas,segunda móvil390px;mock preimportado exclusivamente en procesoQA. Proveedorreal respondió al ejemplo público (622ms),sin guardar datosconsultados ni crear personas en producción. Leer evidencia para distinguir mockQA de conexiónreal. Nueva guía enADR/evidencia;historias anteriores de integraciones sinconexión se mantienen como antecedentes salvo este autocomplete autorizado.
+
+---
+
+# Antecedente · Demostración publicada con datos ficticios
 
 29/10/2026. Después del despliegue, el usuario autorizó expresamente llenar la base publicada con datos simulados para mostrarla al cliente. `https://notariaos.vercel.app` pasa a ser entorno de DEMOSTRACIÓN persistente:12personas tipoDEMO,9expedientes,9presupuestos/7aceptaciones,6tarifas,4TXT privados(3liberados/1cuarentena),16movimientos y2documentos fiscalesSIM preparados. Caja695.00; deuda2390.00; anticipos100.00; terceros150.00; gastos pendientes0.00. Importes ficticios exactos/separados. No nuevas cuentas, roles profesionales, PLAFT, autorización notarial o integraciones reales. La cuenta administradora mantiene TOTP pendiente; contraseña inicial únicamente en `.env.access.local` ignorado, sin copiarla aquí. Guía `docs/deployment/ACCESO-Y-DEMO.md`.
 
