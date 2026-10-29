@@ -6,6 +6,8 @@ Alta de persona porDNI8dígitos autocompleta tras700ms; tipoDEMO/CE/PASAPORTE ma
 
 57unitarias y7E2E/API correctos,build/TypeScript/lint correctos. QA-01 yQA-02 nuevas separadas,segunda móvil390px;mock preimportado exclusivamente en procesoQA. Proveedorreal respondió al ejemplo público (622ms),sin guardar datosconsultados ni crear personas en producción. Leer evidencia para distinguir mockQA de conexiónreal. Nueva guía enADR/evidencia;historias anteriores de integraciones sinconexión se mantienen como antecedentes salvo este autocomplete autorizado.
 
+Publicado/verificadoREADY:fuente`d7d843a51310551cd6e883aabfa559094162908d`,deployment`dpl_9UkqKMgi8CHriWCS6xarJNU18pmE`,canónicaHTTPS200/formularionuevo/consulta anónima401. No se usóTOTP delusuario para prueba. QA-01/02detenidas;revisiónprincipal original3100/PID19396,sesión7300,reabierta. Tokenlocal solo en entorno delproceso;Vercel cifrado persistente. Helpers/copiatemporal deltoken eliminados;no secretos enGit. Ver`person-lookup-deployment.json`.
+
 ---
 
 # Antecedente · Demostración publicada con datos ficticios

@@ -14,4 +14,8 @@ Mock solo en`tests/support/lookup-provider.mock.mjs`, inyectado por`node --impor
 
 Se confirmó el contrato vigente en documentación primaria. [Prueba real](person-lookup-live.json): una consulta con el ejemplo público de documentación, nombre devuelto en622ms, sin persistir datos personales en fuentes/evidencia/base ni configurarTOTP del usuario. APIPERU_TOKEN configurado cifrado enVercel producción. No consulta de identidadRENIEC,biometría,SUNARP,firma oemisiónSUNAT.
 
-Los scripts temporales y la copia local temporal del token se eliminan después de la publicación. El estado del despliegue se registra por separado; las capturas sonQA, no consultas de personas reales en producción.
+Publicación verificadaREADY enVercel para fuente`d7d843a51310551cd6e883aabfa559094162908d`, despliegue`dpl_9UkqKMgi8CHriWCS6xarJNU18pmE`. [Comprobación del enlace canónico](person-lookup-deployment.json):accesoHTTPS200, código del nuevo formulario presente y consulta anónima401. No se accedió alTOTP del usuario ni se crearon fichas productivas para probar. La prueba real del proveedor y los E2EQA son verificaciones distintas, no una consulta autenticada del usuario final enproducción.
+
+QA-01/02detenidas. Servicio principal original reabierto3100/PID19396, sesiónherramienta7300, sin cuentasQA en`.notaria/`. Token autorizado cargado en entorno del servicio local; una futura reapertura requiere configurar su variable de servidor. El valor persistente de publicación está cifrado enVercel.
+
+Los scripts temporales y la copia local temporal del token se eliminan después de la publicación. Las capturas sonQA, no consultas de personas reales en producción.

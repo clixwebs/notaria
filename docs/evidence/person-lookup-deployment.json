@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-29T17:12:31.906Z",
+  "sourceCommit": "d7d843a51310551cd6e883aabfa559094162908d",
+  "deploymentId": "dpl_9UkqKMgi8CHriWCS6xarJNU18pmE",
+  "state": "READY",
+  "immutableUrl": "https://notariaos-iqmtw8r0o-clixws.vercel.app",
+  "canonicalUrl": "https://notariaos.vercel.app",
+  "loginHTTP": 200,
+  "unauthenticatedLookupHTTP": 401,
+  "clientLookupCodePublished": true,
+  "productionDataCreatedByVerification": false,
+  "qaStopped": true,
+  "localReviewPort": 3100,
+  "localReviewPid": 19396
+}
