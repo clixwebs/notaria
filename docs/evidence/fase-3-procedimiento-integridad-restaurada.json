@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-29",
+  "source": ".notaria-procedure-restaurada-qa-03",
+  "counts": {
+    "procedure_events": 34,
+    "procedure_requests": 34,
+    "instrument_counters": 3,
+    "case_records": 29,
+    "case_drafts": 14,
+    "case_events": 146,
+    "case_draft_reviews": 10,
+    "case_participants": 29,
+    "case_requirements": 99,
+    "finance_state": 1,
+    "finance_entries": 38,
+    "finance_requests": 47,
+    "finance_sessions": 3,
+    "finance_closings": 2,
+    "fiscal_documents": 9,
+    "fiscal_events": 24,
+    "fiscal_requests": 24,
+    "fiscal_projection": 9,
+    "tariff_versions": 7,
+    "template_requests": 11
+  },
+  "checks": {
+    "eventHashes": true,
+    "twoAppendOnlyHistories": true,
+    "consecutiveUniqueNumbersAndNonOverlappingFolios": true,
+    "uniqueIndexRejectsDuplicateNumber": true,
+    "tamperIsDetected": true,
+    "frozenBodyAndDraftHash": true,
+    "grantsBelongToCase": true,
+    "officeIsolation": true,
+    "cashierDenied": true,
+    "restorationRetainsAllTables": true,
+    "auditFailureRollsBackCounterEventRevisionAndRequest": true,
+    "confirmedRetryAfterRestartHasOneEffect": true,
+    "noFinanceFiscalTariffTemplateOrDraftSideEffects": true,
+    "diskUnchangedByMemoryTests": true
+  },
+  "limits": [
+    "Procedimiento sintético; sin identidad, firma o autorización reales.",
+    "Pruebas destructivas y nuevos registros solo en copia en memoria."
+  ]
+}

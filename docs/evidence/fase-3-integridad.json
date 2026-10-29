@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-29",
+  "counts": {
+    "persons": 2,
+    "document_versions": 3,
+    "case_records": 9,
+    "case_participants": 9,
+    "case_requirements": 32,
+    "case_requirement_checks": 6,
+    "case_drafts": 3,
+    "case_draft_reviews": 2,
+    "case_quotes": 4,
+    "quote_acceptances": 3,
+    "service_orders": 2,
+    "case_tasks": 1,
+    "case_notes": 2,
+    "case_events": 31
+  },
+  "checks": {
+    "appendOnlySnapshots": true,
+    "immutableRequirementChecks": true,
+    "immutableDrafts": true,
+    "immutableQuotes": true,
+    "immutableAcceptance": true,
+    "appendOnlyEvents": true,
+    "otherOfficeReadDenied": true,
+    "otherOfficeListEmpty": true,
+    "auditFailureRollsBackCaseNoteRevisionAndEvent": true,
+    "canonicalDraftHashesMatch": true,
+    "restoredAllTableCountsMatch": true
+  },
+  "limits": [
+    "Local embedded PostgreSQL only; managed PostgreSQL and operational recovery remain untested."
+  ]
+}

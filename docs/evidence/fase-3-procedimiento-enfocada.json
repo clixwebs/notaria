@@ -1,0 +1,647 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.procedure-focused.config.ts"
+    ],
+    "configFile": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\playwright.procedure-focused.config.ts",
+    "rootDir": "C:/Users/ANDRE/Desktop/ERP Notaria/NotariaOS/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/ANDRE/Desktop/ERP Notaria/NotariaOS/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/ANDRE/Desktop/ERP Notaria/NotariaOS/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "procedure-focused.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e",
+        "snapshotDir": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e",
+        "testIgnore": [],
+        "testMatch": "procedure-focused.spec.ts",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3101",
+          "channel": "chrome",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "trace": "off",
+          "screenshot": "off"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "docs/evidence/fase-3-procedimiento-enfocada.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "procedure-focused.spec.ts",
+      "file": "procedure-focused.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Procedimiento completo en QA nueva",
+          "file": "procedure-focused.spec.ts",
+          "line": 8,
+          "column": 15,
+          "specs": [
+            {
+              "title": "procedimiento: permisos, segundo factor y aislamiento de evidencias",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 180000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                        "line": 8,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1150,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T12:34:36.344Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                            "line": 8,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b1de740545b1a5373e12-01751f8f2f92869fa97e",
+              "file": "procedure.scenarios.ts",
+              "line": 20,
+              "column": 3
+            },
+            {
+              "title": "BK-15: no coincidencia, incertidumbre, consulta y excepción individual del notario",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                        "line": 8,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 267,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T12:34:41.130Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                            "line": 8,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b1de740545b1a5373e12-924df10ef917a48aa19c",
+              "file": "procedure.scenarios.ts",
+              "line": 35,
+              "column": 3
+            },
+            {
+              "title": "BK-16: bloqueos, otorgamientos, asignación concurrente e idempotencia real",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                        "line": 8,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 358,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T12:34:41.403Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                            "line": 8,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b1de740545b1a5373e12-1794f1e2015be4e4a9e9",
+              "file": "procedure.scenarios.ts",
+              "line": 46,
+              "column": 3
+            },
+            {
+              "title": "BK-16: incidencia, número no reutilizado y cambio documental no reescribe historia",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                        "line": 8,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 293,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T12:34:41.768Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                            "line": 8,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b1de740545b1a5373e12-70cfccb917d4c51a435f",
+              "file": "procedure.scenarios.ts",
+              "line": 57,
+              "column": 3
+            },
+            {
+              "title": "BK-16: dos expedientes concurrentes del mismo registro reciben números y folios distintos",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                        "line": 8,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 505,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T12:34:42.072Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                            "line": 8,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b1de740545b1a5373e12-34b5fc0ad7bae54223e4",
+              "file": "procedure.scenarios.ts",
+              "line": 67,
+              "column": 3
+            },
+            {
+              "title": "BK-17: certificación y entrega idempotente sin cambiar finanzas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                        "line": 8,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 208,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T12:34:42.585Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                            "line": 8,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b1de740545b1a5373e12-18c514d3aff54090a942",
+              "file": "procedure.scenarios.ts",
+              "line": 72,
+              "column": 3
+            },
+            {
+              "title": "BK-17: varios intentos, desconocido aclarado, constancia y entrega separadas",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                        "line": 8,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 316,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T12:34:42.800Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                            "line": 8,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b1de740545b1a5373e12-0a3417317abf4ec0bedc",
+              "file": "procedure.scenarios.ts",
+              "line": 80,
+              "column": 3
+            },
+            {
+              "title": "procedimiento UI: recorrido completo de certificación entre administración y notario",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                        "line": 8,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1870,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T12:34:43.124Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                            "line": 8,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b1de740545b1a5373e12-04abdc7ac75bbc6e318a",
+              "file": "procedure.scenarios.ts",
+              "line": 92,
+              "column": 3
+            },
+            {
+              "title": "procedimiento UI: identificación, formulario conservado, móvil, oscuro y constancia",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                        "line": 8,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3421,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T12:34:45.178Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                            "line": 8,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b1de740545b1a5373e12-e3332dba2481fba1821a",
+              "file": "procedure.scenarios.ts",
+              "line": 99,
+              "column": 3
+            },
+            {
+              "title": "cierre de sesión conserva revocación de servidor",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "serial",
+                      "location": {
+                        "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                        "line": 8,
+                        "column": 15
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 20,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-29T12:34:48.608Z",
+                      "annotations": [
+                        {
+                          "type": "serial",
+                          "location": {
+                            "file": "C:\\Users\\ANDRE\\Desktop\\ERP Notaria\\NotariaOS\\tests\\e2e\\procedure-focused.spec.ts",
+                            "line": 8,
+                            "column": 15
+                          }
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b1de740545b1a5373e12-aa6160090419a5d64429",
+              "file": "procedure-focused.spec.ts",
+              "line": 11,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-29T12:34:35.812Z",
+    "duration": 12939.905,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

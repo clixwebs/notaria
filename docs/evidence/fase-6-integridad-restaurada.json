@@ -1,0 +1,275 @@
+{
+  "date": "2026-10-29",
+  "source": ".notaria-phase6-restaurada-qa-03",
+  "tables": {
+    "account": {
+      "count": 19,
+      "sha256": "9524e146558040f299bec1ef509e70e594596eb25ce128b40d1c35aa4561337c"
+    },
+    "case_counters": {
+      "count": 1,
+      "sha256": "ae81c63d845faf8e2a0bcaa32382f917a5a01a99095ca8e4e83a5f9211a9e7f3"
+    },
+    "case_draft_reviews": {
+      "count": 10,
+      "sha256": "8ca2b6165b8e937e418b210ecfa9f1d5a6fbbb7b13dfb82215eff0abd8259ab9"
+    },
+    "case_draft_templates": {
+      "count": 4,
+      "sha256": "be111d66dcdfa65cb7ea712550d426bc9f4b5627caae19c95219f2b4e17cb5e8"
+    },
+    "case_drafts": {
+      "count": 14,
+      "sha256": "31c325958d18197a362a6b8520744deea3aeba962ecf67a34ac30383ad8f91d0"
+    },
+    "case_events": {
+      "count": 147,
+      "sha256": "8f20b2a29c06b862393d4e4aa835e4a354044220645d857cb8196e52807b00b2"
+    },
+    "case_notes": {
+      "count": 3,
+      "sha256": "fc448e2abc3924c66d448d91ac008f0820a029c55b8830617e95aee124877c7e"
+    },
+    "case_participants": {
+      "count": 30,
+      "sha256": "fb600ccddf0849e427a708fd31b88556be8dd6dfb617673d54947e4d8ec6b1d7"
+    },
+    "case_quote_tariffs": {
+      "count": 3,
+      "sha256": "f8026bc2a0abb7817f4145f70e6f5e7f9c469e04d402f5957aebb8d9a6e88a11"
+    },
+    "case_quotes": {
+      "count": 16,
+      "sha256": "cb22f71fbfdf96718697f8c7f78c75b65f5a8a33c2a0c604b56ff931a2e45af2"
+    },
+    "case_records": {
+      "count": 30,
+      "sha256": "e63aca051006d74dd3435ea1619bc8b4bc53821d3c339feaa5c8f732aeb03699"
+    },
+    "case_requirement_checks": {
+      "count": 24,
+      "sha256": "38c24fa79f09de1626b96eed1d523eb7f7b5058f22f3de8ee8e565d032dc9a73"
+    },
+    "case_requirements": {
+      "count": 103,
+      "sha256": "bfbd9f5291bd8adedeb04f864eb60a82694edf423f31e329a5ed3a6e62ca21d5"
+    },
+    "case_tasks": {
+      "count": 1,
+      "sha256": "880a8afea407a17dc7c808c738b4328a99c6a4d8e13713d232f5c5feba106100"
+    },
+    "compliance_artifacts": {
+      "count": 2,
+      "sha256": "edd1e7e87294264c4a088440e9998cad21995c1d1988741422341dce7891cd7c"
+    },
+    "compliance_events": {
+      "count": 26,
+      "sha256": "6f66e94166687291bd19ec19f69158088a5c93964cf8064d21eb07a30f2bd85a"
+    },
+    "compliance_records": {
+      "count": 13,
+      "sha256": "96fa5d9ee4675048ea878d5752066faf4790edbefc7dc4319041f6973a693a8c"
+    },
+    "compliance_requests": {
+      "count": 26,
+      "sha256": "dadb72b119c8ea90768ee3e54da9e50a65b040d5d4b69658b50fb2ea30683d7a"
+    },
+    "compliance_state": {
+      "count": 2,
+      "sha256": "aa39c9ff45b83cb3d8e2de4af20952cd1f4668463b3841ed6bc01667249f7810"
+    },
+    "document_versions": {
+      "count": 9,
+      "sha256": "0fbaafb596e9f4c66b10c838a2bf72667ead8f211c6ec379f4c7de06de427768"
+    },
+    "finance_closings": {
+      "count": 2,
+      "sha256": "f2a58251b792d0ea6e76cc973920640fa5e48fdb084cb67c93ac7207851d5086"
+    },
+    "finance_entries": {
+      "count": 38,
+      "sha256": "d4d2666c8f5f5693b8f90380f2ca1844ab7f5ee1868997729cbe2728cd3af440"
+    },
+    "finance_matches": {
+      "count": 2,
+      "sha256": "0e5eb97eab7aefb3635f6c937a9b2eee2b97afe17675bcd5c8da46b1734e710c"
+    },
+    "finance_requests": {
+      "count": 47,
+      "sha256": "bfbc18ad14727987d5274d2aebf5b70fdf84061e9d615d5b378d8ac83fce7e6d"
+    },
+    "finance_sessions": {
+      "count": 3,
+      "sha256": "9e6c551399120a3f495f1dbd2ff3fa093f5b0a26080df5734dc8c6b472394085"
+    },
+    "finance_state": {
+      "count": 1,
+      "sha256": "89b3d87033e1d2ae7b128c9550a030e9de46061d91adb871c91c97f1493c3182"
+    },
+    "finance_suppliers": {
+      "count": 1,
+      "sha256": "46db9e38501c24bb704e9f703e9ce1b0dd25737c7f5759a607ab23346571f62f"
+    },
+    "finance_unmatches": {
+      "count": 1,
+      "sha256": "1d5906cbdeec7658a85cefb74c29180cc3af35b05987916c329191b383a35262"
+    },
+    "fiscal_documents": {
+      "count": 9,
+      "sha256": "cde9452d70ed83a2f76424ecac4ce5f45351d704a972c01cafb80726d919d037"
+    },
+    "fiscal_events": {
+      "count": 24,
+      "sha256": "6df6b1fd5143cd47915ae4de84a2f50212ede82dc86053cf13f33ca39d1ea8a3"
+    },
+    "fiscal_projection": {
+      "count": 9,
+      "sha256": "0f71cfad3220f090ab9d95626437a49cdd0f2024ae69750e005dd3d63d30b098"
+    },
+    "fiscal_requests": {
+      "count": 24,
+      "sha256": "010e36374154f58504c3bc7eece43f452521818b334ffc5c0591ff6e42fb6a0b"
+    },
+    "fiscal_series": {
+      "count": 2,
+      "sha256": "bb4531d8b603950437133dadc64bea1f30776d8ad59324997eb4d7a0efe1e07a"
+    },
+    "fiscal_sim_receipts": {
+      "count": 7,
+      "sha256": "a520efddcfd47eb68f92287268a13b557180eabdf487bc605929d132b9538620"
+    },
+    "fiscal_state": {
+      "count": 1,
+      "sha256": "0317528c4f4f206f0d537f3f8900fa442b1a9cc4fa106c71905649760e9d9975"
+    },
+    "instrument_counters": {
+      "count": 3,
+      "sha256": "c4ca850aef25edbf680a0e7364f1af4c7763b5e0e3057b6ba03954fce5798cbb"
+    },
+    "integration_artifacts": {
+      "count": 2,
+      "sha256": "d772cbd915eff264fa85cf7bb21483f379a980da78e583540457c8213992cedf"
+    },
+    "integration_events": {
+      "count": 17,
+      "sha256": "c7ba1207eba342e115ca8b0e02040cf7594cbd355af18fe60123a42018e601e7"
+    },
+    "integration_records": {
+      "count": 9,
+      "sha256": "c173dc040d9fc9e45798d6a77b7d64cc269f187d2bc864430513c7be231122d2"
+    },
+    "integration_requests": {
+      "count": 17,
+      "sha256": "1a257fa3bf98e75bc928a5434189554aade46e12cbec263048ed53f9dd63a90b"
+    },
+    "integration_state": {
+      "count": 3,
+      "sha256": "557b31ae9fb8e409d4fce2b401a90cd6032ef97989f65bf699fccb6b80bb6af0"
+    },
+    "legal_template_versions": {
+      "count": 7,
+      "sha256": "161f67717e95de36a2e9df60292e312995fd3821fd5cd88295d03badc92961d5"
+    },
+    "legal_templates": {
+      "count": 2,
+      "sha256": "47e26373e064b1def9c1eb05523e220c4c775e030adf75fd4caab296a6e7d8fa"
+    },
+    "notary_settings": {
+      "count": 1,
+      "sha256": "d88c001987169aa9f12e0b68fd444a951eeafedd1e431eb0e2c1372724a5d625"
+    },
+    "persons": {
+      "count": 16,
+      "sha256": "bd62ebb4cb4ca715e7c34bcdfd258e8de331dd1418fee5a060c9bdf1e82700d0"
+    },
+    "platform_migrations": {
+      "count": 11,
+      "sha256": "d66af4a798ba170efb893995acd54374637403842ecbce365d25314a3730e8d6"
+    },
+    "private_documents": {
+      "count": 8,
+      "sha256": "09fa99ab308117ec4d5b2bf5944c974bbbdf7f82a980059f87c6e6afc55bb716"
+    },
+    "procedure_events": {
+      "count": 34,
+      "sha256": "aabb8972f7f96557e2f937669f5db2386e1f2906937005d30be6cd111781a562"
+    },
+    "procedure_requests": {
+      "count": 34,
+      "sha256": "af5aaaf2ab812edbb3842eda60e1855d626990c6ad965ef26320221bc07375bd"
+    },
+    "quote_acceptances": {
+      "count": 13,
+      "sha256": "855ddd342cb4cbf531cb22136b5805f24a05b081f3c3793689afc1ff1909ac1b"
+    },
+    "representations": {
+      "count": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "service_orders": {
+      "count": 12,
+      "sha256": "0cdf218637305449bfd910b5b5f79d2652d004c4625e5bbc656eed9a7bd1fcd3"
+    },
+    "setup_claim": {
+      "count": 1,
+      "sha256": "acbdc3501e28b285663a1ef7ca4075fbb57d51ebbd9e4982a161c5c0c48141e2"
+    },
+    "staff": {
+      "count": 19,
+      "sha256": "8de1a9a81816945aa03fa81f87c2f7f25e9923a51ace10ee9c09c2bb06aad513"
+    },
+    "tariff_items": {
+      "count": 5,
+      "sha256": "30759d5582dc5656d0b47cc26c4c51b3c1624b3190d68297ed9f16f812821ab1"
+    },
+    "tariff_requests": {
+      "count": 7,
+      "sha256": "a2080408fb1fe02b7dec8162a2d1debc309a93941ddefd7fa1b715661b8638b9"
+    },
+    "tariff_state": {
+      "count": 1,
+      "sha256": "4d49f4b090aead59dbb673f0c8341ab7a4767ca3cabc9c518ed2ccc5cb7a7db6"
+    },
+    "tariff_versions": {
+      "count": 7,
+      "sha256": "30f236517b8d2e6a477bef8eebd31531cfe657e1de392dbe3126aa93ba08b70c"
+    },
+    "template_requests": {
+      "count": 11,
+      "sha256": "ba240fdec46e7ba526cf6076c5f7883ab54059c10d0ac5e2f9c7e7d7b07a20f9"
+    },
+    "template_state": {
+      "count": 1,
+      "sha256": "4d49f4b090aead59dbb673f0c8341ab7a4767ca3cabc9c518ed2ccc5cb7a7db6"
+    },
+    "twoFactor": {
+      "count": 19,
+      "sha256": "e8d38d984f85ad7fa9762a72ec0a7426f3686fb992b6df58f92b520b2473c590"
+    },
+    "user": {
+      "count": 19,
+      "sha256": "fdc55c71db97373559001f74501c631445365a6cf6653d00d6229da6943a1a07"
+    }
+  },
+  "checks": {
+    "eventChains": true,
+    "manifestHash": true,
+    "declaredExternalEvidenceNeverVerified": true,
+    "realGatesFalse": true,
+    "fourAppendOnlyTables": true,
+    "rolesSeparated": true,
+    "officeIsolation": true,
+    "auditFailureRollsBackAll": true,
+    "confirmedRetryHasOneEffect": true,
+    "requestPayloadConflict": true,
+    "staleRevisionRejected": true,
+    "restartKeepsIdempotence": true,
+    "previousModulesUnchanged": true,
+    "manifestTamperRejected": true,
+    "eventTamperDetected": true
+  },
+  "limits": [
+    "Solo QA cerrada, inspección real de Windows; pruebas destructivas en memoria.",
+    "No valida hardware, criptografía, inscripción, demo real ni operación legal."
+  ]
+}

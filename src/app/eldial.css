@@ -1,0 +1,269 @@
+/* Base visual de ElDial: estructura ELDIAL_THEME, paleta jurídica negro/azul, Montserrat, acceso y navegación superior.
+   Adaptación autorizada por André. Contenido y datos propios del prototipo. */
+body { font-family: var(--font-montserrat), Montserrat, system-ui, sans-serif; -webkit-font-smoothing: antialiased; letter-spacing: -.01em; }
+[data-theme] { --ink: #174ea6; --canvas: #f4f6fa; --surface: #fff; --text: #111827; --muted: #526176; --border: #dbe2ec; --soft: #f4f6fa; --control: #8796ad; --focus: #123c7f; --blue-bg: #e8eef9; --blue: #174ea6; --green-bg: #edf3ec; --green: #346538; --amber-bg: #fbf3db; --amber: #856000; --violet-bg: #f3f0ff; --violet: #5b21b6; --gold: #174ea6; --color-accent: #174ea6; --color-accent-secondary: #3a3a3c; --color-canvas: #f4f6fa; --shadow: 0 30px 80px -38px #11182773; }
+[data-theme='dark'] { --ink: #a5c5ff; --canvas: #0b111c; --surface: #121c2b; --text: #eef4ff; --muted: #b2bfd4; --border: #33435a; --soft: #1d2a3e; --control: #788dab; --focus: #a5c5ff; --blue-bg: #203757; --blue: #adcaff; --green-bg: #263e2b; --green: #b3e0b8; --amber-bg: #493d23; --amber: #ffe1a1; --violet-bg: #3d2c53; --violet: #e2c6ff; --color-canvas: #0b111c; }
+h1, h2, h3 { font-family: var(--font-montserrat), Montserrat, system-ui, sans-serif; letter-spacing: -.025em; }
+h1 { font-size: 26px; font-weight: 650; } h2 { font-weight: 650; }
+table { font-feature-settings: 'tnum'; }
+::selection { background: #174ea6; color: #fff; }
+.workspace { margin-left: 0; }
+.main-content { max-width: none; padding: 24px 22px 32px; }
+.page-heading { margin-bottom: 23px; }
+.page-heading p { font-size: 13px; }
+.panel, .stat { border-radius: 8px; }
+.btn { font-size: 12px; border-color: var(--border); border-radius: 6px; }
+.btn.primary { background: #174ea6; border-color: #174ea6; color: #fff; }
+.btn.primary:hover:not(:disabled) { background: #123c7f; }
+[data-theme='dark'] .btn.primary { color: #fff; background: #174ea6; border-color: #174ea6; }
+[data-theme='dark'] .btn.primary:hover:not(:disabled) { background: #123c7f; }
+.badge { border-radius: 5px; }
+.badge.blue { background: #e1f3fe; color: #1f6c9f; }
+[data-theme='dark'] .badge.blue { background: #263e63; color: #a9cbff; }
+.avatar, .avatar.small, .avatar.large { border-radius: 8px; background: var(--blue-bg); color: var(--blue); }
+.filter-tabs { border: 0; gap: 7px; }
+.filter-tabs button { border: 1px solid var(--border); background: var(--surface); border-radius: 5px; padding: 7px 13px; min-height: 36px; }
+.filter-tabs button[aria-pressed='true'] { background: #174ea6; color: #fff; border-color: #174ea6; }
+.filter-tabs button[aria-pressed='true']:after { display: none; }
+.filter-tabs button[aria-pressed='true']>span { background: #fff2; color: #fff; }
+.pagination .selected { background: #174ea6; color: #fff; }
+.stats { gap: 16px; }
+.stat { padding: 18px 20px; }.stat>strong { font-size: 27px; letter-spacing: -.6px; }.stat>small { font-size: 12px; }
+.dashboard-grid { grid-template-columns: minmax(0,1fr) 300px; gap: 20px; }
+.case-list .panel-heading { padding-top: 11px; padding-bottom: 11px; }
+.case-table td { padding-top: 13px; padding-bottom: 13px; }.case-name strong { font-weight: 650; }.case-name small { margin-top: 3px; }
+.case-table th { font-size: 11px; font-weight: 500; }.case-table .badge { font-size: 11px; }
+.demo-strip { min-height: 30px; padding: 5px 22px; background: var(--surface); font-size: 11px; }.demo-strip .badge { font-size: 10px; }
+.app-footer { padding: 14px 22px; font-size: 11px; }.footer-version { margin-left: 4px; }
+.eldial-topnav { height: 56px; display: flex; align-items: center; gap: 18px; background: var(--surface); border-bottom: 1px solid var(--border); padding: 0 16px; flex-shrink: 0; }
+.eldial-header-brand { flex-shrink: 0; }
+.product-logo { display: inline-flex; align-items: center; gap: 10px; color: #174ea6; font-weight: 750; letter-spacing: -.8px; font-size: 25px; line-height: 1.1; }
+.product-logo>span:last-child>span { font-weight: 500; }.product-logo small { display: block; font-size: 9px; letter-spacing: 1.6px; margin-top: 5px; font-weight: 550; }
+.product-mark { position: relative; display: grid; place-items: center; }.product-mark i { position: absolute; width: 7px; height: 7px; background: #34d399; border: 2px solid var(--surface); right: -2px; bottom: -3px; border-radius: 100%; }
+.eldial-header-brand .product-logo { color: var(--text); font-size: 14px; font-weight: 750; gap: 8px; letter-spacing: -.4px; }.eldial-header-brand .product-logo>span:last-child>span { font-weight: 750; }.eldial-header-brand .product-logo small { display: none; }.eldial-header-brand .product-mark { color: #174ea6; }.eldial-header-brand .product-mark>svg { width: 27px; height: 27px; }
+.eldial-desktop-links { display: flex; align-items: center; gap: 3px; flex: 1; min-width: 0; }
+.eldial-desktop-links>a, .eldial-more>summary { display: flex; align-items: center; gap: 6px; min-height: 38px; padding: 8px 10px; font-size: 12px; color: var(--muted); font-weight: 500; white-space: nowrap; border-radius: 8px; }
+.eldial-desktop-links>a:hover, .eldial-more>summary:hover { background: var(--soft); }.eldial-desktop-links>a[aria-current='page'] { background: var(--blue-bg); color: var(--blue); }
+.eldial-more { position: relative; }.eldial-more>summary { cursor: pointer; list-style: none; }.eldial-more>summary::-webkit-details-marker { display: none; }.eldial-more[open]>summary { color: var(--blue); background: var(--blue-bg); }
+.eldial-more>div { position: absolute; z-index: 35; top: calc(100% + 8px); left: 0; min-width: 225px; padding: 8px; border: 1px solid var(--border); background: var(--surface); border-radius: 10px; box-shadow: 0 15px 35px #1118271a; }.eldial-more>div>a { display: flex; gap: 11px; align-items: center; padding: 12px; min-height: 44px; font-size: 12px; border-radius: 7px; }.eldial-more>div>a:hover { background: var(--soft); color: var(--blue); }
+.eldial-header-actions { display: flex; align-items: center; gap: 4px; margin-left: auto; flex-shrink: 0; }.eldial-office { display: flex; align-items: center; gap: 8px; font-size: 11px; font-weight: 550; padding-left: 17px; margin-right: 6px; border-left: 1px solid var(--border); min-height: 32px; }.eldial-header-actions .profile { border: 0; padding-left: 4px; gap: 8px; font-size: 11px; }.eldial-header-actions .profile small { font-size: 10px; }.eldial-header-actions .avatar { width: 28px; height: 28px; font-size: 11px; }.eldial-header-actions .icon-btn { min-width: 36px; min-height: 44px; }.eldial-header-actions .global-search { min-width: 36px; }
+.eldial-topnav .menu-toggle { display: none; }
+/* La barra de ElDial es horizontal en escritorio. El panel se reserva para móvil. */
+.sidebar { display: none; background: var(--surface); color: var(--text); }.sidebar .product-logo { margin: 10px 12px; }.sidebar .office { color: var(--text); border-color: var(--border); }.sidebar .office small { color: var(--muted); }.sidebar .nav-label { color: var(--muted); }.sidebar .nav-link { color: var(--muted); font-size: 13px; }.sidebar .nav-link.active { color: var(--blue); background: var(--blue-bg); box-shadow: none; }.sidebar .nav-link:hover { color: var(--blue); background: var(--soft); }.sidebar .nav-count { color: var(--blue); background: var(--blue-bg); }.sidebar .mobile-close { color: var(--muted); }.sidebar .demo-label,.sidebar .sidebar-bottom p { color: var(--muted); }.sidebar .exit-link { color: var(--muted); border-color: var(--border); }
+.toast { left: 50%; }.toast:not(:empty) { background: var(--text); color: var(--surface); }
+.skip { left: 20px; }
+/* Acceso: misma composición, proporciones y acabados que ElDial/login. */
+.eldial-access { position: relative; min-height: 100dvh; overflow: hidden; --color-canvas: #f4f6fa; color: #111827; background: #f4f6fa; --control: #8796ad; --focus: #123c7f; --surface: #fff; --muted: #526176; --text: #111827; --border: #dbe2ec; }
+.eldial-access-grid { position: relative; z-index: 1; display: grid; grid-template-columns: 1.15fr 1fr; min-height: 100dvh; }
+.eldial-login-story { display: flex; flex-direction: column; justify-content: center; padding: 40px 64px; min-width: 0; }
+.eldial-video-card { position: relative; width: 100%; overflow: hidden; border-radius: 26px; background: #050b18; box-shadow: 0 40px 90px -38px #11182799; outline: 1px solid #0000001a; }
+.eldial-video-frame { position: relative; width: 100%; aspect-ratio: 16 / 9; }.eldial-video-frame>img,.eldial-video-frame>video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; }
+.video-toggle { position: absolute; bottom: 10px; right: 12px; display: flex; align-items: center; gap: 6px; min-height: 34px; background: #111d; color: #fff; font-size: 10px; border-radius: 8px; padding: 7px 12px; }.video-toggle:focus-visible { outline-color: #fff; }
+.peru-pill { margin-top: 32px; display: inline-flex; align-items: center; gap: 10px; border-radius: 999px; background: #174ea614; color: #123c7f; border: 1px solid #174ea626; padding: 7px 14px; font-size: 10px; letter-spacing: 2px; font-weight: 650; text-transform: uppercase; width: fit-content; }
+.flag-pe { display: inline-flex; flex-shrink: 0; width: 18px; height: 12px; border-radius: 3px; overflow: hidden; box-shadow: 0 0 0 1px #00000012; }.flag-pe i { width: 33.333%; height: 100%; background: #d91023; }.flag-pe i:nth-child(2) { background: #fff; }
+.eldial-login-story h2 { max-width: 20ch; font-size: 32px; font-weight: 600; line-height: 1.15; letter-spacing: -.025em; margin-top: 16px; }.eldial-login-story>p { max-width: 42ch; font-size: 14px; line-height: 1.7; margin-top: 10px; color: #526176; }
+.eldial-login-main { display: flex; align-items: center; justify-content: center; padding: 25px 56px; min-width: 0; }.eldial-login-wrapper { width: 100%; max-width: 430px; }
+.eldial-login-card { border-radius: 28px; border: 1px solid #ffffffb3; background: #ffffffb3; padding: 36px; box-shadow: 0 30px 80px -38px #11182773; backdrop-filter: blur(40px); }
+.login-product { margin-bottom: 28px; }.login-product .product-logo { font-size: 32px; gap: 13px; }.login-product .product-mark>svg { width: 44px; height: 44px; }.login-product .product-logo small { font-size: 10px; letter-spacing: 2.5px; }.login-product .product-mark i { display: none; }
+.eldial-login-card h1 { font-size: 25.6px; font-weight: 600; line-height: 1.25; letter-spacing: -.025em; }.eldial-login-card .login-intro { color: #526176; font-size: 14px; line-height: 1.6; margin-top: 6px; }
+.login-office { display: inline-flex; align-items: center; gap: 8px; border: 1px solid #174ea626; background: #174ea614; border-radius: 999px; padding: 7px 12px; color: #123c7f; font-size: 11px; font-weight: 650; margin-top: 16px; }.login-office>span { width: 6px; height: 6px; border-radius: 100%; background: #174ea6; }
+.eldial-login-form { margin-top: 24px; }.eldial-login-form>label { display: block; font-size: 12px; font-weight: 600; letter-spacing: .6px; color: #526176; text-transform: uppercase; margin: 16px 0 8px; }.eldial-login-form>label:first-child { margin-top: 0; }
+.eldial-login-form input, .eldial-login-form select { width: 100%; height: 48px; padding: 0 16px; font-size: 15px; color: #111827; border: 1px solid #b4c2d6; border-radius: 16px; background: #fff; }.eldial-login-form input:focus-visible,.eldial-login-form select:focus-visible { outline: 2px solid #123c7f; outline-offset: 2px; box-shadow: 0 0 0 4px #174ea626; }
+.eldial-password { position: relative; }.eldial-password input { padding-right: 47px; }.eldial-password>button { position: absolute; right: 4px; top: 2px; width: 44px; height: 44px; display: grid; place-items: center; color: #526176; border-radius: 12px; }
+.eldial-login-submit { min-height: 48px; margin-top: 18px; width: 100%; display: flex; justify-content: center; align-items: center; border-radius: 16px; background: #174ea6; color: #fff; font-size: 15px; font-weight: 650; box-shadow: 0 14px 30px -12px #174ea6; transition: background .2s, box-shadow .2s; }.eldial-login-submit:hover { background: #123c7f; box-shadow: 0 18px 36px -12px #174ea6; }
+.login-demo-note { font-size: 11px; line-height: 1.65; color: #526176; margin-top: 12px; }.login-restriction { margin-top: 25px; border-top: 1px solid #0000000d; padding-top: 20px; text-align: center; font-size: 11px; color: #526176; }.eldial-login-footer { font-size: 11px; line-height: 1.9; color: #526176; text-align: center; margin-top: 20px; }.eldial-login-footer a { font-weight: 600; }.eldial-login-footer a:hover { text-decoration: underline; }.login-peru-mobile { display: none; }.login-back { width: 100%; min-height: 44px; color: #526176; font-size: 12px; margin-top: 12px; }.eldial-mfa { text-align: center; font-size: 30px; letter-spacing: 9px; font-variant-numeric: tabular-nums; border: 1px solid #b4c2d6; background: #fff; padding: 20px; border-radius: 16px; margin-top: 16px; }
+@media(min-width: 1024px) { .sidebar { display: none !important; }.menu-toggle { display: none; } }
+@media(max-width: 1270px) { .eldial-topnav { gap: 10px; }.eldial-desktop-links>a,.eldial-more>summary { padding: 8px; font-size: 11px; }.eldial-office { display: none; }.eldial-login-story { padding: 40px; }.eldial-login-story h2 { font-size: 24px; }.eldial-login-main { padding: 20px 24px; }.eldial-login-wrapper { max-width: 400px; } }
+@media(max-width: 1100px) { .dashboard-grid { grid-template-columns: 1fr; } }
+@media(max-width: 1023px) {
+  .eldial-desktop-links { display: none; }.eldial-topnav .menu-toggle { display: inline-flex; }.eldial-header-actions { margin-left: auto; }.eldial-header-actions .profile { display: flex; }.eldial-header-brand .product-logo { font-size: 16px; }.eldial-topnav { padding: 0 12px; gap: 9px; }
+  .sidebar { display: flex; visibility: hidden; transform: translateX(-100%); transition: transform .2s; width: 260px; }.sidebar.is-open { visibility: visible; transform: translateX(0); }.sidebar .mobile-close { display: flex; position: absolute; top: 5px; right: 6px; }.nav-scrim { position: fixed; inset: 0; z-index: 29; background: #11182766; }
+  .eldial-access-grid { grid-template-columns: 1fr; }.eldial-login-story { display: none; }.eldial-login-main { min-height: 100dvh; padding: 40px 24px; }.eldial-login-wrapper { max-width: 430px; }.login-peru-mobile { display: flex; align-items: center; justify-content: center; gap: 10px; color: #526176; font-size: 11px; text-align: center; margin-top: 24px; }
+}
+@media(max-width: 600px) {
+  .main-content { padding: 22px 16px 28px; }.eldial-topnav { gap: 5px; padding: 0 9px; }.eldial-topnav>.menu-toggle { min-width: 37px; }.eldial-header-brand .product-logo { font-size: 14px; gap: 5px; }.eldial-header-brand .product-mark>svg { width: 23px; }.eldial-header-actions { gap: 0; }.eldial-header-actions .profile { display: none; }.eldial-header-actions .icon-btn { min-width: 36px; }.eldial-office { display: none; }
+  .demo-strip { padding: 6px 16px; font-size: 10px; }.demo-strip>span:nth-child(2) { font-size: 10px; }.demo-strip .badge { font-size: 9px; }.app-footer { padding: 16px; font-size: 10px; }
+  .stats { gap: 10px; }.stat { padding: 14px; }.stat-top { font-size: 11px; }.stat>strong { font-size: 24px; }.stat>small { font-size: 11px; }.filter-tabs { gap: 6px; flex-wrap: wrap; }.filter-tabs button { font-size: 11px; padding: 7px 10px; min-height: 44px; }.case-table .badge { font-size: 10px; }.case-table th { font-size: 10px; }.eldial-login-main { padding: 32px 20px; }.eldial-login-card { padding: 28px; }.eldial-login-card h1 { font-size: 24px; }.eldial-login-form input,.eldial-login-form select { font-size: 16px; }.eldial-login-footer { font-size: 10px; }.login-peru-mobile { font-size: 10px; }.login-demo-note { font-size: 11px; }.login-product .product-logo { font-size: 28px; }.login-product .product-mark>svg { width: 37px; }
+}
+@media(min-width: 601px) and (max-width: 850px) { .stats { grid-template-columns: repeat(2,minmax(0,1fr)); }.three-stats { grid-template-columns: repeat(3,minmax(0,1fr)); } }
+@media(prefers-reduced-motion: reduce) { .login-blob { animation: none !important; }.eldial-login-submit { transition: none; } }
+
+/* Reutilizado de ElDial/globals.css: auroras, grano y sus keyframes. */
+.login-aurora {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background:
+    radial-gradient(130% 95% at 50% -15%, color-mix(in srgb, var(--color-accent) 12%, transparent), transparent 60%),
+    var(--color-canvas);
+}
+
+.login-blob {
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  filter: blur(80px);
+  will-change: transform;
+}
+
+.login-blob-1 {
+  width: 52vmax;
+  height: 52vmax;
+  top: -20vmax;
+  right: -14vmax;
+  background: radial-gradient(circle at 35% 35%, color-mix(in srgb, var(--color-accent) 58%, transparent), transparent 68%);
+  animation: auroraA 34s ease-in-out infinite;
+}
+
+.login-blob-2 {
+  width: 42vmax;
+  height: 42vmax;
+  bottom: -16vmax;
+  right: 18%;
+  background: radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--color-accent-secondary) 26%, transparent), transparent 70%);
+  animation: auroraB 44s ease-in-out infinite;
+}
+
+.login-blob-3 {
+  width: 34vmax;
+  height: 34vmax;
+  top: 28%;
+  right: 2%;
+  background: radial-gradient(circle at 50% 50%, color-mix(in srgb, #174ea6 30%, transparent), transparent 68%);
+  animation: auroraC 38s ease-in-out infinite;
+}
+
+.login-blob-4 {
+  width: 30vmax;
+  height: 30vmax;
+  bottom: 6%;
+  left: 36%;
+  background: radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--color-accent) 40%, transparent), transparent 70%);
+  animation: auroraD 50s ease-in-out infinite;
+}
+
+.login-grain {
+  position: absolute;
+  inset: 0;
+  opacity: 0.4;
+  mix-blend-mode: soft-light;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='0.35'/%3E%3C/svg%3E");
+}
+
+@keyframes auroraA {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50%      { transform: translate3d(-7vmax, 6vmax, 0) scale(1.16); }
+}
+@keyframes auroraB {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1.1); }
+  50%      { transform: translate3d(8vmax, -7vmax, 0) scale(0.92); }
+}
+@keyframes auroraC {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(0.95); }
+  50%      { transform: translate3d(-6vmax, -8vmax, 0) scale(1.22); }
+}
+@keyframes auroraD {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1.05); }
+  50%      { transform: translate3d(6vmax, 5vmax, 0) scale(0.9); }
+}
+
+
+@media(prefers-reduced-motion: reduce) { .login-blob { animation: none !important; } }
+
+/* Fase 2: los componentes y proporciones de ElDial conservan su identidad. */
+.platform-section { margin-top: 22px; }
+.platform-form { display: grid; gap: 18px; margin-top: 20px; }
+.platform-form .btn { justify-self: start; }
+.platform-form textarea { min-height: 100px; resize: vertical; padding: 12px; font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--control); border-radius: 7px; }
+.platform-form input[type=file] { padding: 10px; min-height: 48px; width: 100%; }
+.block { display: block; }
+.private-docs article { padding: 22px; border-top: 1px solid var(--border); }
+.doc-heading { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.doc-heading>div { flex: 1; min-width: 170px; }
+.doc-heading h3 { font-size: 14px; }
+.doc-heading p { font-size: 12px; color: var(--muted); margin-top: 6px; overflow-wrap: anywhere; }
+.file-hash { font-size: 11px; color: var(--muted); margin: 16px 0; overflow-wrap: anywhere; }
+.file-hash code { display: inline; }
+.button-row { display: flex; flex-wrap: wrap; gap: 10px; }
+.recovery-codes { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; margin: 20px 0; }
+.recovery-codes code { background: var(--soft); padding: 10px; border: 1px solid var(--border); border-radius: 6px; overflow-wrap: anywhere; }
+.form-error { color: #a91d33; background: #fff0f2; border: 1px solid #e2b2bc; padding: 12px; border-radius: 7px; font-size: 13px; line-height: 1.6; margin-top: 12px; }
+[data-theme='dark'] .form-error { background: #3a1926; color: #ffb9c4; }
+.private-docs .case-icon { flex-shrink: 0; }
+.eldial-login-submit:disabled { opacity: .6; cursor: wait; }
+.eldial-login-form .form-error { font-size: 12px; }
+.eldial-topnav { border-top: 3px solid #0d1729; }
+[data-theme='dark'] .eldial-topnav { border-top-color: #2c65bc; }
+
+/* Negro tinta en la barra; azul jurídico en acciones y selección. */
+.eldial-topnav { background: #0d1728; color: #e8effa; border-bottom-color: #293950; }
+.eldial-header-brand .product-logo { color: #f4f7fc; }
+.eldial-header-brand .product-mark { color: #88b6ff; }
+.eldial-desktop-links>a,.eldial-more>summary { color: #c0cde1; }
+.eldial-desktop-links>a:hover,.eldial-more>summary:hover { color: #fff; background: #1c2b42; }
+.eldial-desktop-links>a[aria-current='page'] { color: #c4daff; background: #233b5f; }
+.eldial-more>div { color: var(--text); }
+.eldial-header-actions .icon-btn,.eldial-topnav>.icon-btn,.eldial-office { color: #c0cde1; }
+.eldial-header-actions .icon-btn:hover { background: #233b5f; color: #fff; }
+.eldial-header-actions .profile small { color: #b1bfd4; }
+.eldial-header-actions .avatar { color: #d7e5ff; background: #233b5f; }
+.eldial-office { border-color: #34435b; }
+
+.case-table.platform-table { min-width: 600px; }
+.case-table.platform-table th,.case-table.platform-table td { display: table-cell; }
+.case-table.platform-table th:last-child,.case-table.platform-table td:last-child { width: auto; padding: 12px; }
+.case-table.platform-table code { white-space: normal; overflow-wrap: anywhere; font-size: 11px; }
+
+/* Fase 3: mismos componentes ELDIAL/Clix para el expediente persistente. */
+.persistent-case-table { min-width: 880px; }
+.case-table.persistent-case-table th,.case-table.persistent-case-table td { display: table-cell; }
+.case-table.persistent-case-table td:last-child,.case-table.persistent-case-table th:last-child { width: auto; padding: 12px; }
+.persistent-case-table td { max-width: 270px; overflow-wrap: anywhere; }
+.case-list .list-controls>.field { flex: 1; min-width: 200px; }
+.case-note { margin-top: 18px; padding: 14px 0; border-top: 1px solid var(--border); white-space: pre-wrap; overflow-wrap: anywhere; }
+.case-note p { margin: 8px 0; }
+.participant-snapshot { display: flex; align-items: flex-start; gap: 14px; border-top: 1px solid var(--border); padding: 20px 0; }
+.participant-snapshot p { margin: 8px 0; }
+.requirement-body { flex: 1; min-width: 180px; overflow-wrap: anywhere; }
+.requirement-body p { font-size: 12px; margin-top: 6px; color: var(--muted); }
+.case-paper .draft-body { white-space: pre-wrap; overflow-wrap: anywhere; font-family: Georgia,serif; line-height: 1.9; margin: 24px 0; }
+.case-paper .paper-watermark { position: static; transform: none; opacity: 1; color: #526176; font-size: 10px; letter-spacing: 1px; border-top: 1px solid #dbe2ec; padding-top: 20px; }
+.draft-snapshots { margin: 24px 0; border-top: 1px solid #dbe2ec; padding-top: 18px; color: #111827; }
+.draft-snapshots h3 { font-size: 13px; }
+.draft-snapshots p { font-size: 12px; margin-top: 8px; }
+.platform-form .draft-editor { min-height: 300px; font-size: 15px; line-height: 1.8; }
+.quote-heading { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
+.quote-total { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; border-top: 1px solid var(--border); padding: 22px; background: var(--soft); }
+.quote-total strong { font-size: 24px; font-variant-numeric: tabular-nums; }
+.quote-line-editor { border: 1px solid var(--border); border-radius: 8px; display: grid; gap: 15px; padding: 18px; min-width: 0; }
+.quote-line-editor legend { font-weight: 650; padding: 0 7px; }
+.quote-amounts { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+.quote-form { max-width: 100%; }
+.form-panel>h2+p { margin-top: 10px; line-height: 1.7; }
+.case-context>span { overflow-wrap: anywhere; }
+@media(max-width:600px){.requirement .btn { min-height: 44px; }.quote-total strong{font-size:22px;}.quote-amounts{grid-template-columns:1fr;}.case-paper{padding:24px 18px;}.document-grid .panel-heading {align-items:flex-start;flex-wrap:wrap;}.panel-heading .field{width:100%;}}
+
+.detail-grid aside .soft-note { display: block; }
+.detail-grid aside .soft-note strong { display: block; margin-bottom: 8px; white-space: nowrap; }
+@media(max-width:600px){.detail-grid .panel-heading{align-items:flex-start;flex-wrap:wrap;}.detail-grid .panel-heading .field{width:100%;flex-basis:100%;}.detail-grid .panel-heading>h2{width:100%;}}
+
+.requirement-history { margin-top: 22px; border-top: 1px solid var(--border); padding-top: 18px; }.requirement-history summary { cursor: pointer; min-height: 44px; font-weight: 600; }
+
+/* Fase 4 · Caja comparte las superficies, tipografía y componentes de ELDIAL. */
+.finance-tabs { display:flex; flex-wrap:wrap; gap:6px; padding:6px; margin-bottom:22px; border:1px solid var(--border); border-radius:9px; background:var(--surface); }
+.finance-tabs a { padding:12px 15px; min-height:44px; display:flex; align-items:center; border-radius:6px; font-weight:600; font-size:12px; }
+.finance-tabs a:hover { background:var(--soft); }.finance-tabs a[aria-current='page'] { background:var(--blue-bg); color:var(--blue); }
+.finance-session { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; align-items:center; margin:20px 0; color:var(--muted); font-size:12px; }
+.finance-session strong { color:var(--text); }.finance-status { display:inline-block; width:8px; height:8px; background:var(--muted); border-radius:50%; margin-right:6px; }.finance-status.is-open { background:var(--green); }
+.finance-stats .stat { min-width:0; }.finance-stats .stat strong { font-size:clamp(19px,2vw,28px); overflow-wrap:anywhere; font-variant-numeric:tabular-nums; }
+.finance-quick { display:flex; flex-wrap:wrap; align-items:center; gap:22px; padding:24px; margin-bottom:24px; }.finance-quick>div:first-child { flex:1; min-width:220px; }.finance-quick p { color:var(--muted); font-size:12px; margin-top:7px; }
+.finance-actions { display:flex; flex-wrap:wrap; gap:9px; margin-top:12px; }.finance-quick .finance-actions { flex:1.6; }
+.case-table.finance-table { min-width:880px; }.case-table.finance-table th,.case-table.finance-table td { display:table-cell; }.case-table.finance-table th:last-child,.case-table.finance-table td:last-child { width:auto; padding:14px; }
+.finance-table td { max-width:270px; overflow-wrap:anywhere; }.finance-table td small { margin-top:5px; display:block; }.finance-amount { white-space:nowrap; font-variant-numeric:tabular-nums; }.finance-row-actions { display:flex; flex-wrap:wrap; gap:7px; max-width:210px; }.finance-row-actions .btn { font-size:11px; min-height:36px; padding:7px 10px; }
+.finance-provider-grid,.finance-client-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(290px,100%),1fr)); gap:16px; padding:22px; }
+.finance-provider,.finance-client { border:1px solid var(--border); border-radius:8px; padding:22px; background:var(--surface); overflow-wrap:anywhere; }
+.finance-provider>strong,.finance-provider>span,.finance-provider>small { display:block; margin-top:8px; }.finance-provider>strong { font-size:24px; color:var(--blue); }.finance-provider h3 { margin-top:12px; }.finance-provider small,.finance-provider>span { color:var(--muted); }.finance-provider>div { margin-top:18px; padding-top:16px; border-top:1px solid var(--border); display:grid; gap:9px; }
+.finance-client { display:flex; gap:14px; align-items:center; }.finance-client:hover { border-color:var(--blue); }.finance-client small,.finance-client span:not(.avatar) { display:block; margin-top:6px; font-size:12px; }.finance-client small { color:var(--muted); }
+.finance-receipt { display:grid; gap:18px; padding:24px 4px; }.finance-receipt .receipt-amount { font-size:30px; font-variant-numeric:tabular-nums; }.finance-receipt dl { margin:0; display:grid; gap:7px; }.finance-receipt dt { color:var(--muted); font-size:12px; margin-top:12px; }.finance-receipt dd { margin:0; overflow-wrap:anywhere; }.finance-receipt>p { border-top:1px solid var(--border); padding-top:18px; font-size:12px; color:var(--muted); }
+@media(max-width:600px){.finance-tabs { gap:3px; }.finance-tabs a { flex:1 1 40%; padding:12px 8px; justify-content:center; }.finance-quick { padding:18px; }.finance-quick>div,.finance-quick .finance-actions { min-width:0; flex-basis:100%; }.finance-actions .btn { min-height:44px; }.finance-row-actions .btn { min-height:44px; }.finance-provider-grid,.finance-client-grid { padding:14px; }.finance-session>span { line-height:1.8; }.finance-receipt .receipt-amount { font-size:26px; }}

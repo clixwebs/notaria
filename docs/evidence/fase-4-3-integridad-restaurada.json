@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-29",
+  "source": ".notaria-phase43-restaurada-qa-02",
+  "counts": {
+    "legal_templates": 2,
+    "legal_template_versions": 7,
+    "template_requests": 11,
+    "case_draft_templates": 4,
+    "template_state": 1,
+    "case_records": 23,
+    "case_participants": 23,
+    "case_requirements": 81,
+    "case_drafts": 7,
+    "case_draft_reviews": 3,
+    "case_events": 73,
+    "case_quotes": 16,
+    "quote_acceptances": 13,
+    "service_orders": 12,
+    "finance_state": 1,
+    "finance_entries": 38,
+    "finance_requests": 47,
+    "finance_sessions": 3,
+    "finance_closings": 2,
+    "fiscal_documents": 10,
+    "fiscal_events": 26,
+    "fiscal_requests": 26,
+    "fiscal_projection": 10,
+    "tariff_versions": 7,
+    "tariff_requests": 7
+  },
+  "checks": {
+    "fourHistoriesRejectUpdateDelete": true,
+    "allPublishedHashesMatch": true,
+    "generationRebuildsFromFrozenTemplateValuesAndContext": true,
+    "immutableSourceLinksMatchSnapshots": true,
+    "catalogRevisionMatchesPublications": true,
+    "officeAndProfessionalPermissionIsolation": true,
+    "auditFailureRollsBackPublicationAndGeneration": true,
+    "noFinancialFiscalOrTariffSideEffects": true,
+    "restartRetainsAllComparedTables": true,
+    "retryAfterRestorationCreatesExactlyOneDraft": true,
+    "originalDiskUnchangedByRestoredGeneration": true
+  },
+  "limits": [
+    "Solo textos sintéticos QA. No valida contenido jurídico, firma ni autorización notarial.",
+    "La prueba de generación tras reinicio se ejecuta en copia en memoria."
+  ]
+}

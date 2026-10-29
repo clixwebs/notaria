@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-29",
+  "version": "0.4.0",
+  "build": "passed",
+  "typecheck": "passed",
+  "lint": "passed",
+  "unitTests": 18,
+  "e2ePassed": 30,
+  "e2eFailed": 0,
+  "e2eDurationMs": 87730.69499999999,
+  "integrityCheckGroups": 12,
+  "cliBackupRestoredAndVerified": true,
+  "restoredBalancesEqualOriginal": true,
+  "referenceFiles": 48,
+  "referenceDifferences": 0,
+  "localMarkdownLinks": 113,
+  "brokenLinks": 0,
+  "qaData": ".notaria-phase4-qa-04",
+  "restoredData": ".notaria-phase4-restaurada-qa-04",
+  "review": "http://127.0.0.1:3100/caja",
+  "reviewAnonymousAPIs401": true,
+  "notes": [
+    "Fiscal emission, tax calculation, tariff catalogue and fiscal adapter remain pending.",
+    "No external PostgreSQL, bank connection, managed recovery or operational pilot tested."
+  ]
+}

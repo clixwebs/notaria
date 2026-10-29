@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-29",
+  "counts": {
+    "fiscal_state": 1,
+    "fiscal_series": 2,
+    "fiscal_projection": 10,
+    "fiscal_documents": 10,
+    "fiscal_events": 26,
+    "fiscal_requests": 26,
+    "fiscal_sim_receipts": 8
+  },
+  "checks": {
+    "fourFiscalHistoriesRejectUpdatesAndDeletes": true,
+    "frozenXMLQRAndSnapshotsHaveMatchingHashes": true,
+    "projectionsRebuildFromEvents": true,
+    "seriesAndRequestsMatchCounters": true,
+    "officeAndRoleIsolation": true,
+    "auditFailureRollsBackPreparationNumberArtifactsAndRequest": true,
+    "auditFailureRollsBackSimulatedReceiptAndEvent": true,
+    "wrongAdapterDocumentOrHashCannotClaimAcceptance": true,
+    "fiscalFailureDoesNotChangeFinancialTables": true,
+    "eventTransitionsAndSimulationMarkersConsistent": true,
+    "restorationRetainsCountsAndArtifactBytes": true,
+    "unknownResultSurvivesRestartAndResolvesOnceWithSameReference": true
+  },
+  "limits": [
+    "Simulación local sin red. No es validación XSD/UBL integral, firma, CDR ni aceptación fiscal real.",
+    "El verificador crea una única preparación/timeout de recuperación en esta base QA si no existe; no toca la base principal."
+  ]
+}

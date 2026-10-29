@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-29",
+  "counts": {
+    "tariff_items": 5,
+    "tariff_versions": 7,
+    "tariff_requests": 7,
+    "case_quote_tariffs": 3,
+    "case_quotes": 8,
+    "quote_acceptances": 5,
+    "finance_entries": 29
+  },
+  "checks": {
+    "fourTariffTablesRejectUpdateAndDelete": true,
+    "officeIsolation": true,
+    "cashierCannotPublish": true,
+    "auditFailureRollsBackPublicationStateVersionAndRequest": true,
+    "auditFailureRollsBackQuoteLinksAndCaseRevision": true,
+    "quoteSnapshotsMatchImmutableTariffVersions": true,
+    "restorationRetainsCountsAndExactQuotes": true
+  },
+  "limits": [
+    "QA detenida; PGlite de un proceso. PostgreSQL externo y validación tributaria no ensayados."
+  ]
+}

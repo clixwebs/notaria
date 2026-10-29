@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-29",
+  "version": "0.4.3",
+  "backlog": "BK-14",
+  "build": "passed",
+  "typecheck": "passed",
+  "lint": "passed",
+  "unitTests": 37,
+  "e2ePassed": 55,
+  "e2eFailed": 0,
+  "e2eSkipped": 0,
+  "e2eRetries": 0,
+  "e2eDurationMs": 105996.947,
+  "integrityGroups": {
+    "integridad": 11,
+    "fiscal-integridad": 12,
+    "tarifas-integridad": 7,
+    "finanzas-integridad": 12
+  },
+  "cliBackupRestoredAndVerified": true,
+  "exactlyEqualDomainTables": 34,
+  "qaData": ".notaria-phase43-qa-02",
+  "restoredData": ".notaria-phase43-restaurada-qa-02",
+  "principalBackup": "backups/local-2026-10-29T11-06-36-379Z",
+  "qaBackup": "backups/local-2026-10-29T11-22-19-197Z",
+  "review": "http://127.0.0.1:3100/plantillas",
+  "qaAccountsCreatedInPrincipal": false,
+  "sunatRealEnabled": false,
+  "newDependencies": false,
+  "notes": [
+    "Empty template catalogue; legal content requires review by the notary.",
+    "Plain text templates, typed variables and professional publication; generated drafts require their own review.",
+    "BK-15-17, real fiscal integration and operational pilot remain pending.",
+    "No fiscal XML source changes; XSD validation evidence remains in phase 4.2."
+  ],
+  "sourceFilesHashed": 101,
+  "localMarkdownLinks": 203,
+  "brokenLinks": 0
+}

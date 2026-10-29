@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-29",
+  "markdownFiles": 16,
+  "localLinksChecked": 61,
+  "referenceHashesMatched": 48,
+  "referenceDifferences": [],
+  "build": "passed",
+  "typecheck": "passed",
+  "lint": "passed",
+  "domainTests": {
+    "passed": 8,
+    "failed": 0
+  },
+  "e2eTests": {
+    "passed": 14,
+    "failed": 0
+  },
+  "issues": []
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-29",
+  "review": "http://127.0.0.1:3100/tarifario",
+  "checks": {
+    "login200": true,
+    "anonymousTariffsFinanceCases401": true,
+    "anonymousTariffPageRedirectsToLogin": true,
+    "noPageErrors": true
+  },
+  "qaAccountsCreatedHere": false
+}

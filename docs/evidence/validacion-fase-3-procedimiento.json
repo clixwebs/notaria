@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-29",
+  "version": "0.5.0",
+  "phase": 3,
+  "scope": [
+    "BK-15",
+    "BK-16",
+    "BK-17"
+  ],
+  "deliveryPolicy": "Whole original phases; no new decimal phases",
+  "build": "passed",
+  "typecheck": "passed",
+  "lint": "passed",
+  "unitPassed": 41,
+  "regressionScenariosPassed": 54,
+  "fullPreAccessibilityFix": {
+    "startTime": "2026-10-29T12:26:34.515Z",
+    "duration": 172688.48500000002,
+    "expected": 62,
+    "skipped": 1,
+    "unexpected": 1,
+    "flaky": 0
+  },
+  "finalFocused": {
+    "startTime": "2026-10-29T12:34:35.812Z",
+    "duration": 12939.905,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "distinctScenariosVerifiedAcrossPasses": 64,
+  "singleFullSuiteAllGreen": false,
+  "integrityGroupsOriginalAndRestored": 14,
+  "restorationTablesEqual": 41,
+  "privateDocumentBytesCompared": true,
+  "localKeyEqualWithoutDisclosure": true,
+  "qaIntegrated": ".notaria-procedure-qa-03",
+  "qaFocusedFinal": ".notaria-procedure-qa-05",
+  "restored": ".notaria-procedure-restaurada-qa-03",
+  "qaServersStopped": true,
+  "review": "http://127.0.0.1:3100/expedientes",
+  "qaAccountsCreatedInMain": false,
+  "realSUNATEnabled": false,
+  "newDependencies": false,
+  "referenceFilesRead": 0,
+  "sourceFiles": 114,
+  "notes": [
+    "The integrated pre-fix run retains 62 passes, 1 axe failure and 1 skipped logout. The corrected scroll region and final readable presentation passed all 9 procedure scenarios plus logout in a new focused QA. No claim that the old complete JSON was green.",
+    "54 regression scenarios and 10 final focused scenarios verified across isolated passes.",
+    "Local simulation only; no legal identity, signature, authorization or fiscal emission."
+  ],
+  "localMarkdownLinks": 228,
+  "brokenLinks": 0
+}

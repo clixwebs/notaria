@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-29",
+  "counts": {
+    "persons": 13,
+    "case_records": 21,
+    "case_quotes": 16,
+    "case_requirement_checks": 6,
+    "finance_state": 1,
+    "finance_requests": 47,
+    "finance_suppliers": 1,
+    "finance_sessions": 3,
+    "finance_closings": 2,
+    "finance_entries": 38,
+    "finance_matches": 2,
+    "finance_unmatches": 1
+  },
+  "balances": {
+    "receivable": "907.21",
+    "advance": "5.20",
+    "third": "100.00",
+    "cash": "100.00"
+  },
+  "checks": {
+    "sevenFinancialHistoryTablesImmutable": true,
+    "entriesCannotBeEdited": true,
+    "wrongOfficeHasNoFinancialData": true,
+    "wrongOfficeClientReturns404": true,
+    "auditFailureRollsBackChargeRevisionSequenceAndRequest": true,
+    "auditFailureRollsBackClosure": true,
+    "noNegativeCustomerBuckets": true,
+    "totalsMatchImmutableLedger": true,
+    "closuresReconstructExactly": true,
+    "oneActiveBudgetChargePerCase": true,
+    "restorationRetainsAllCounts": true,
+    "restorationRetainsExactBalances": true
+  },
+  "limits": [
+    "PGlite local single process; external PostgreSQL, managed recovery and real integrations are not tested."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-29",
+  "build": "passed",
+  "typecheck": "passed",
+  "lint": "passed",
+  "unitTestsPassed": 11,
+  "e2ePassed": 14,
+  "e2eFailed": 0,
+  "localMarkdownLinksChecked": 75,
+  "documentIssues": [],
+  "referenceHashesMatched": 48,
+  "referenceDifferences": [],
+  "cliBackupAndRestore": "passed",
+  "restoredAuthKeyMatches": true,
+  "notes": [
+    "Local foundations only; operational readiness and real integrations remain pending."
+  ],
+  "reviewInstallation": {
+    "url": "http://127.0.0.1:3100/acceso",
+    "needsSetup": true,
+    "qaAccountsPresent": false,
+    "browserErrors": 0,
+    "axeViolations": 0
+  }
+}

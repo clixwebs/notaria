@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-29",
+  "equal": true,
+  "privateDocumentBytesCompared": true,
+  "localKeyEqualWithoutDisclosure": true,
+  "tables": {
+    "private_documents": {
+      "count": 5,
+      "sha256": "2028554aa9d632adb4dcbaf03358e5a141922a921cfba5a75099c44ba936097b"
+    },
+    "document_versions": {
+      "count": 6,
+      "sha256": "7c7dc1d1959e6943a455dc9456561dc3b0549748a7ec39f047d280281355dab2"
+    },
+    "persons": {
+      "count": 15,
+      "sha256": "58aa1fb0751370d552fa30b2ec69403d78fbe0ca550dd61c43e08c0b32bba031"
+    },
+    "representations": {
+      "count": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "procedure_events": {
+      "count": 34,
+      "sha256": "ca6227da07c3aadd899f85e56a287641eb39cfb2b9d6e52e5642b67ac12287ef"
+    },
+    "procedure_requests": {
+      "count": 34,
+      "sha256": "aa3ebf5b6d6ebb19ff9f9fefb8f08e59446b1c323b961632e293b43dd1ef7301"
+    },
+    "instrument_counters": {
+      "count": 3,
+      "sha256": "c4ca850aef25edbf680a0e7364f1af4c7763b5e0e3057b6ba03954fce5798cbb"
+    },
+    "template_state": {
+      "count": 1,
+      "sha256": "4d49f4b090aead59dbb673f0c8341ab7a4767ca3cabc9c518ed2ccc5cb7a7db6"
+    },
+    "legal_templates": {
+      "count": 2,
+      "sha256": "d4ad250746a0d0e647172eb0c55a19a23dc7285453c5bf879469c440459412bf"
+    },
+    "legal_template_versions": {
+      "count": 7,
+      "sha256": "60e90d12c661443907023c30918a22097afd0235756544eef8817f2fd3c5d6b6"
+    },
+    "template_requests": {
+      "count": 11,
+      "sha256": "d6a7a5f36ed00624a9da944c88854a2e5e841c8d84af3dff26185496fbc4058c"
+    },
+    "case_draft_templates": {
+      "count": 4,
+      "sha256": "710a813822c6ffa651ca86c8eb48b34e4d0c638640078806491c81f7d1a04b9f"
+    },
+    "case_records": {
+      "count": 29,
+      "sha256": "d7577d430b2954e47ea6a537208508a17536395dfb8007244a789c92b55f91ca"
+    },
+    "case_participants": {
+      "count": 29,
+      "sha256": "992daf06d448eecb48bf73635886eb3aff33e697acc201dd2472ca774d6d9183"
+    },
+    "case_requirements": {
+      "count": 99,
+      "sha256": "cc7f809a05c66ca885ed246cf35d5798c9b2fbb72bbd0d1a46ca53e7562ee08e"
+    },
+    "case_drafts": {
+      "count": 14,
+      "sha256": "58b9b23168f76d31d6edb328cda450a15a3096cf418e82758ce7c457a616746a"
+    },
+    "case_draft_reviews": {
+      "count": 10,
+      "sha256": "c7e81cf9628d8b2ef05922b350ac4dd1f9ebb0ae4a4f72b3efec0d4664c4e4d6"
+    },
+    "case_requirement_checks": {
+      "count": 24,
+      "sha256": "705355bff5cf234bd5da88a2c82aecf76a230570f64375e563f3b04ec83d5720"
+    },
+    "case_events": {
+      "count": 146,
+      "sha256": "696cc3623e240b84571baed46d43dc7f6fb64004859e6ae6bbf5ba59e060d86e"
+    },
+    "fiscal_state": {
+      "count": 1,
+      "sha256": "0317528c4f4f206f0d537f3f8900fa442b1a9cc4fa106c71905649760e9d9975"
+    },
+    "fiscal_series": {
+      "count": 2,
+      "sha256": "bb4531d8b603950437133dadc64bea1f30776d8ad59324997eb4d7a0efe1e07a"
+    },
+    "fiscal_documents": {
+      "count": 9,
+      "sha256": "e2ccd1aee48de8bae2261a712b0a1c9d6b6faa79eeb190ddbdad4233ea624b25"
+    },
+    "fiscal_projection": {
+      "count": 9,
+      "sha256": "b6a09a5f31e176fc5ab1df049183f1309fd50007ae7576a79bb9527cd8eae4ef"
+    },
+    "fiscal_events": {
+      "count": 24,
+      "sha256": "76deaf7f7cc4376a2d2432bd2043c03494b24751b7be9e691388bcb75c74be21"
+    },
+    "fiscal_requests": {
+      "count": 24,
+      "sha256": "3391f3e845d121baa2de314693cbc2f3833198331316ba5da64eb9627aa620f7"
+    },
+    "fiscal_sim_receipts": {
+      "count": 7,
+      "sha256": "5f1bca0cc1c3d0ba845dbe61b0237ae96731cd39d56e4881f3bae68f1a9f35ab"
+    },
+    "tariff_state": {
+      "count": 1,
+      "sha256": "4d49f4b090aead59dbb673f0c8341ab7a4767ca3cabc9c518ed2ccc5cb7a7db6"
+    },
+    "tariff_items": {
+      "count": 5,
+      "sha256": "ffcff40cbafb075030f42b3b44db11c2612f765a36a5caedec994440e719f028"
+    },
+    "tariff_versions": {
+      "count": 7,
+      "sha256": "d31d0804a559e486ccb33c0e9fce96f01af974d1d3cae3c1ede4a4ebf942b973"
+    },
+    "tariff_requests": {
+      "count": 7,
+      "sha256": "b74bc8576fb7873c4d43aafa7c4514c34debb4422c785fcffb3c4e070ea790ed"
+    },
+    "case_quote_tariffs": {
+      "count": 3,
+      "sha256": "9d64c16d7df453895aa14b02d6bfa94cadd61244251cc02231b736a4037c567d"
+    },
+    "case_quotes": {
+      "count": 16,
+      "sha256": "d3eb59ff1d24db08ca007fd33447bc08549afc25e541c2d9bc5a53ad13409005"
+    },
+    "quote_acceptances": {
+      "count": 13,
+      "sha256": "f8aabfd141cbf4e46104dd06311da8aa14428b1d281054cd364c52b4b374538e"
+    },
+    "service_orders": {
+      "count": 12,
+      "sha256": "202d8060280aab36e74ed9c03489c8af52911a141f7e1a0aa5726e3416a260e1"
+    },
+    "finance_state": {
+      "count": 1,
+      "sha256": "89b3d87033e1d2ae7b128c9550a030e9de46061d91adb871c91c97f1493c3182"
+    },
+    "finance_entries": {
+      "count": 38,
+      "sha256": "8990d9fc57c7fea6d042493eee1c3c3d888ca2ebb6345280ef3c0314848b8f59"
+    },
+    "finance_requests": {
+      "count": 47,
+      "sha256": "1bd70a79b29937de97e2bdb70dbb4c4eb57c81243d9a8ed672664ac4c0e3be2c"
+    },
+    "finance_sessions": {
+      "count": 3,
+      "sha256": "0073170476a2f49f5cc35562778d24c147c184fc92bbd4040fde532099935520"
+    },
+    "finance_closings": {
+      "count": 2,
+      "sha256": "06980337fbba085a927a1104971ff720ddb940349c45aaaf375343e0b99b80a6"
+    },
+    "finance_matches": {
+      "count": 2,
+      "sha256": "4eea2ba4ff07500283cdb6d0674c4bd1a4cd0c9d7a17c1767db530ec29aa86ee"
+    },
+    "finance_unmatches": {
+      "count": 1,
+      "sha256": "73df4d865cf2045942b60a7f068f1c9b00a24c86e8a0b7101cf71c2374badf62"
+    }
+  },
+  "notes": [
+    "Comparación secuencial de dos bases QA detenidas; auditoría de verificaciones excluida porque las lecturas agregan evidencia. No se imprime contenido ni credenciales."
+  ]
+}

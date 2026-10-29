@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-29",
+  "review": "http://127.0.0.1:3100/fiscal",
+  "checks": {
+    "login200": true,
+    "anonymousFiscalTariffsFinanceCases401": true,
+    "anonymousFiscalFile401": true,
+    "anonymousFiscalPageRedirectsToLogin": true,
+    "noPageErrors": true
+  },
+  "qaAccountsCreatedHere": false
+}

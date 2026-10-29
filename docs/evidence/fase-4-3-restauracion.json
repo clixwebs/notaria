@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-29",
+  "equal": true,
+  "tables": {
+    "template_state": {
+      "count": 1,
+      "sha256": "4d49f4b090aead59dbb673f0c8341ab7a4767ca3cabc9c518ed2ccc5cb7a7db6"
+    },
+    "legal_templates": {
+      "count": 2,
+      "sha256": "3be07a64730490f1941fa27358f6136923d6c1eb59e9a61d38a2d3771b2d7215"
+    },
+    "legal_template_versions": {
+      "count": 7,
+      "sha256": "8fa54c63c511d736c91604502dcc32bfe8c1a07d9fc2cd46a6eab7d58b006c92"
+    },
+    "template_requests": {
+      "count": 11,
+      "sha256": "e27707cbaaad99778702aa3625b77b6a0c024c2366698e527240a5f59a3b67fb"
+    },
+    "case_draft_templates": {
+      "count": 4,
+      "sha256": "70179d63162623aea3b5f0aac7631d2f48aabbda47f2d49aac74e4ed6a08b404"
+    },
+    "case_records": {
+      "count": 23,
+      "sha256": "5b8f9fefea594669849dc968e8353d07a7f9dbe02542d5d5de7f70df7611388a"
+    },
+    "case_participants": {
+      "count": 23,
+      "sha256": "030021464206f663a4529c1264a826ba59aea57f06816990bc4304f76f5c5258"
+    },
+    "case_requirements": {
+      "count": 81,
+      "sha256": "2640da992d7c7939084c8d83f48b324225631338cf0b6e0ac06263220f3e8337"
+    },
+    "case_drafts": {
+      "count": 7,
+      "sha256": "1af54270a7b355fb3153fe4f2ec383a041c57d6a46080dd2ccfe9c31949b4ac9"
+    },
+    "case_draft_reviews": {
+      "count": 3,
+      "sha256": "66623960a77ddfa2aeaa53c43c32092b72e67d3e57a899d31ef20a5bcaa8ef67"
+    },
+    "case_requirement_checks": {
+      "count": 6,
+      "sha256": "49e9553579502934124d47eec558bee42c803c006148b6fccec67d6d53373e0b"
+    },
+    "case_events": {
+      "count": 73,
+      "sha256": "4a13ed156e87c697c1e7c6eb2cea42455ba5412c93184b2e6bdabd49385e5398"
+    },
+    "fiscal_state": {
+      "count": 1,
+      "sha256": "868932434534f15f9f53fd0e30bc6aba680c6cfad18b376187baddc00cdb2027"
+    },
+    "fiscal_series": {
+      "count": 2,
+      "sha256": "7d0daa3448b6074ba87288ca015854b6593418df876b8e0d9a77ad3c78e3bbab"
+    },
+    "fiscal_documents": {
+      "count": 10,
+      "sha256": "11381f6a1635fb56f8e360c8c93db95aa1bb66b22d7587c1891516ffa3553fc0"
+    },
+    "fiscal_projection": {
+      "count": 10,
+      "sha256": "c55b9969d98ee0a6ff1160dbe27cafca53a26f9b8341d6181faa9dc05401becd"
+    },
+    "fiscal_events": {
+      "count": 26,
+      "sha256": "90663928844a101572d07f50e1b2e1b5aa7f06c73bee73dbc89165d7666dc48e"
+    },
+    "fiscal_requests": {
+      "count": 26,
+      "sha256": "eda85bd5ab4070cb8429ff1bdebc154e843e6c8de263cd7417a77e85d4db7e46"
+    },
+    "fiscal_sim_receipts": {
+      "count": 8,
+      "sha256": "a7e9734fc9e253ac67f8b4dc67c84eb0675f60bfc79e6c0796b55e49df1a9128"
+    },
+    "tariff_state": {
+      "count": 1,
+      "sha256": "4d49f4b090aead59dbb673f0c8341ab7a4767ca3cabc9c518ed2ccc5cb7a7db6"
+    },
+    "tariff_items": {
+      "count": 5,
+      "sha256": "8b86b8a79bae9c97bc6ca461fe04ea97e7850c36f9f58851c6a7d811d3a0c72e"
+    },
+    "tariff_versions": {
+      "count": 7,
+      "sha256": "6bcdd5292ebd1b53726d8df490bc64609ec4f3c14fdddbc45238445af9bf92c2"
+    },
+    "tariff_requests": {
+      "count": 7,
+      "sha256": "1f6f22740fa66009f65ca4a40cac73d5e62d4f766a1b947d4040ea77000118cd"
+    },
+    "case_quote_tariffs": {
+      "count": 3,
+      "sha256": "89dd8efb708cb6ac5ccf0e584c5f1f0cf563b77b5676a1009cad83ff8e790a54"
+    },
+    "case_quotes": {
+      "count": 16,
+      "sha256": "3412e623837d3ebb091387ac6c95f03d507d2057de12ee460ea40705aff57695"
+    },
+    "quote_acceptances": {
+      "count": 13,
+      "sha256": "10dcc9a598c5fcddabb6156118bcbf73708cdd03a25fd8c658489a2cb0adfbc3"
+    },
+    "service_orders": {
+      "count": 12,
+      "sha256": "23142f1c6fd33c6f61d6be6f87631b24fb3c3e4f425150d83e0f8ef0f687b521"
+    },
+    "finance_state": {
+      "count": 1,
+      "sha256": "89b3d87033e1d2ae7b128c9550a030e9de46061d91adb871c91c97f1493c3182"
+    },
+    "finance_entries": {
+      "count": 38,
+      "sha256": "cf99ced29a8ed1c3e5ad42652ca515a6b01987d550147ea2eaf72da259b3b16d"
+    },
+    "finance_requests": {
+      "count": 47,
+      "sha256": "96fd35057cea4bfe02396f5824977b7b5ba62a71f5f6ec60c95519ab2cacfc87"
+    },
+    "finance_sessions": {
+      "count": 3,
+      "sha256": "35abbf216ce1af24f3f075769b075396072e3979af5ba10b80d4d4311ff08819"
+    },
+    "finance_closings": {
+      "count": 2,
+      "sha256": "92f60163655e8a19e4a61a24022d15b17add4acea60ea149864823bcad9a83bf"
+    },
+    "finance_matches": {
+      "count": 2,
+      "sha256": "9797fa8c815b57334e4fb6c04663000d455a5e9d2c417c6d5abaaa43b7022e52"
+    },
+    "finance_unmatches": {
+      "count": 1,
+      "sha256": "fac474decd5efff029ed7849a0d3cf2aae32308b26f79a28eb6e36354938ae9b"
+    }
+  },
+  "notes": [
+    "Comparación secuencial de dos bases QA detenidas; auditoría de verificaciones excluida porque las lecturas agregan evidencia. No se imprime contenido ni credenciales."
+  ]
+}

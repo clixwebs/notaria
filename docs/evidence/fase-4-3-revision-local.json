@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-29",
+  "review": "http://127.0.0.1:3100/plantillas",
+  "checks": {
+    "login200": true,
+    "anonymousTemplatesFiscalTariffsFinanceCases401": true,
+    "anonymousFiscalFile401": true,
+    "anonymousTemplatesPageRedirectsToLogin": true,
+    "noPageErrors": true
+  },
+  "qaAccountsCreatedHere": false
+}

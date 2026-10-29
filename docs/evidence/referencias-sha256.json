@@ -1,0 +1,199 @@
+{
+  "reviewDate": "2026-10-29",
+  "root": "C:\\Users\\ANDRE\\Desktop\\App prueba",
+  "purpose": "Identificar referencias inspeccionadas; no contiene contenido de archivos",
+  "files": [
+    {
+      "reference": "AGENTS.md",
+      "sha256": "442e0f18d4c439c06e489ba84e541624b7fae3e850f95163f656f900a9ead4bb"
+    },
+    {
+      "reference": "skills\\frontend design.md",
+      "sha256": "6bf8561e4c2c9c9f843c2b904175ede2eb8c3ba9dacbf0fec868d2ad5bf6f146"
+    },
+    {
+      "reference": "skills\\diseñador.md",
+      "sha256": "6230dfad905a256aebe361b605bc882be653a837d783a479e48c4bd76cc9697c"
+    },
+    {
+      "reference": "ElDial\\AGENTS.md",
+      "sha256": "d231f274b9b6bacf2f7dd61e1573601c88dcb64ab121d60a31064cc2ec47d4c8"
+    },
+    {
+      "reference": "ElDial\\MEMORY.md",
+      "sha256": "3245666638fa3298e8dd74d6099ff2a3146c86db5992273f27fb4cabdf627171"
+    },
+    {
+      "reference": "ElDial\\README.md",
+      "sha256": "6ac279a9951651c6165f050def03b0ae35fe8b3e2cfe1999ee155152c3bbddf7"
+    },
+    {
+      "reference": "ElDial\\package.json",
+      "sha256": "201a20d284a410ea9187b1e66b58c3be49ab719d925aadbe90f6c42ec7729869"
+    },
+    {
+      "reference": "ElDial\\package-lock.json",
+      "sha256": "36c8fba4b8e89632d4bd7697c8261d7a7350be5d2be5c3ba06a85913980f7d7d"
+    },
+    {
+      "reference": "ElDial\\prisma\\schema.prisma",
+      "sha256": "4ebbf6012bf1771e24dc380f7d699485b2cb4b1d816b3345c4d9daea659a805e"
+    },
+    {
+      "reference": "ElDial\\next.config.ts",
+      "sha256": "dc8d736eb9951acbb61d61dad2e56995c53c86f16501de0a6ca3679106e89e01"
+    },
+    {
+      "reference": "ElDial\\src\\proxy.ts",
+      "sha256": "6530bab26a95810355421f468324e3aafdc8140b5cf4b829a84ab03124196979"
+    },
+    {
+      "reference": "ElDial\\src\\lib\\tenant.ts",
+      "sha256": "6438dd72075ef02876174de4a9f1f559ab405d88457f7df7e719441840e9e456"
+    },
+    {
+      "reference": "ElDial\\src\\lib\\auth.ts",
+      "sha256": "30c459b3d2198155c3fda0a4b4a52d7a9b64526cb24c82dd06e025adbfad64fd"
+    },
+    {
+      "reference": "ElDial\\src\\lib\\prisma.ts",
+      "sha256": "c94eb0a278d6e7bfc4cdcbe2a08c5c371f9528565069bbb0421197c64a2fecaa"
+    },
+    {
+      "reference": "ElDial\\src\\lib\\access.ts",
+      "sha256": "3f48be5199a8fdd89e29acd30501d6804cb915bff850f30bd7f5984dbccdc30e"
+    },
+    {
+      "reference": "ElDial\\src\\lib\\api-helpers.ts",
+      "sha256": "5be1731300f31afa41c9563c29b9343c5d77b10ca997ef4d2fd6998ec6be9bda"
+    },
+    {
+      "reference": "ElDial\\src\\lib\\audit.ts",
+      "sha256": "91091d9cde0d5772b68c70876038df57cae54b3c352bf41262c6f114fe591e17"
+    },
+    {
+      "reference": "ElDial\\src\\lib\\datos-personales.ts",
+      "sha256": "ea2486deb7100067d03529073b31512504ed5d60a056bdc8c844402f21a6d9f4"
+    },
+    {
+      "reference": "ElDial\\src\\lib\\datos-personales.test.ts",
+      "sha256": "367567a01871c066f39b6d473a2995bbc9d1d64552cf01878342542f7ecb64a7"
+    },
+    {
+      "reference": "ElDial\\src\\lib\\sesion.ts",
+      "sha256": "c351fd43720823f9d730f3997afeaa282d04de2036cee80018e6952433b1d257"
+    },
+    {
+      "reference": "ElDial\\src\\lib\\sesion.test.ts",
+      "sha256": "eef9db10e431d9f7f18f9ccfd231e70d9cdfb342c15ef186662865ab5186dbd0"
+    },
+    {
+      "reference": "ElDial\\src\\lib\\dates.ts",
+      "sha256": "ff4081881682fc925344feb6738d5cb2711e03f42cf8cdecf945a3e39ae09f51"
+    },
+    {
+      "reference": "ElDial\\src\\lib\\documento-cliente.ts",
+      "sha256": "f81a709f6c53dec5eb2feadcb14ce5654a9dee9b67916bdd9fe9287292ec80bd"
+    },
+    {
+      "reference": "ElDial\\src\\lib\\report-catalog.ts",
+      "sha256": "aca3c24bb9944a146cce63c2721b63b95fb64b9c7eb634c095374e247bb6481b"
+    },
+    {
+      "reference": "ElDial\\src\\lib\\smartpse.ts",
+      "sha256": "b7d24c4ab7b26e954a55f6eaed55ca137b1a47a041b51234319b946d939e506d"
+    },
+    {
+      "reference": "ElDial\\src\\lib\\smartpse.test.ts",
+      "sha256": "8a92379ac29a99b278c350dcec4d20455ed34f02afe8442aa1b2417361a5dcd6"
+    },
+    {
+      "reference": "ElDial\\src\\app\\globals.css",
+      "sha256": "e5eb490dc022fc16b3d8d074cc629fc689c6151436f2a387f488846956a2c4ba"
+    },
+    {
+      "reference": "ElDial\\src\\app\\layout.tsx",
+      "sha256": "b79cd8a6674178aa9539c6f940a3b6884096c782a89353a4fe60311ccaf66b03"
+    },
+    {
+      "reference": "ElDial\\src\\components\\layout\\sidebar.tsx",
+      "sha256": "d5e48eecd10682f604469508f87a676b4a574f4cb211c348227d4c4bcb4821f4"
+    },
+    {
+      "reference": "ElDial\\src\\components\\ui\\pagination.tsx",
+      "sha256": "8d3e552163ca65eac53577a198b70f7fbabe31f37e9003e02a8b85dc83bbac41"
+    },
+    {
+      "reference": "ElDial\\src\\components\\ui\\empty-state.tsx",
+      "sha256": "caecfd3de4d6e1c11289cb128a5626db6f2d2c7656e0495d72219ea336fbcfc6"
+    },
+    {
+      "reference": "ElDial\\src\\components\\ui\\dialog-provider.tsx",
+      "sha256": "d1bee3c23014842b60e61857d184f47f8c420cf4693623b1c42b07e83ea9fec2"
+    },
+    {
+      "reference": "ElDial\\node_modules\\next\\dist\\docs\\01-app\\03-api-reference\\03-file-conventions\\proxy.md",
+      "sha256": "93651ef86b21a4d44ebac90f88a530645350386661e45b7ac8dbe4bab72a8c69"
+    },
+    {
+      "reference": "ElDial-muestras-pantallas\\9-login-nuevo.png",
+      "sha256": "e39b91480cc7f67d121a5bf54ef5f7b50e9e8391caedb2f9fa2bbeb235741e80"
+    },
+    {
+      "reference": "ElDial-muestras-pantallas\\10-login-movil.png",
+      "sha256": "9e4de764746ab5bd7cfed764d6df2e6c68c5bdc45e6d336f12b7732d7cb14d91"
+    },
+    {
+      "reference": "ElDial-muestras-pantallas\\1-pos-vacio.png",
+      "sha256": "6c8d59ab1f38e5b1307a457f07c0ad7143579abf4f06e53580e70affd8437c0e"
+    },
+    {
+      "reference": "ElDial-muestras-comprobantes\\7-factura-con-qr-sunat.png",
+      "sha256": "edad350332367a791f341c84fc9006449d8460a2aa3fa5db5f011ef91182afa4"
+    },
+    {
+      "reference": "capturas-compacto\\port-eldial-oc-lista.png",
+      "sha256": "7471eb464a62f1b6e1651c9d16ff4f3583e3ba26d78635b10fa6077ebaa623e2"
+    },
+    {
+      "reference": "capturas-compacto\\port-demo-oc-lista.png",
+      "sha256": "44402f67cb574a4cc42b2abf64b998399ec3836825dbbe677b6b1605fdaa148f"
+    },
+    {
+      "reference": "capturas-compacto\\port-market-oc-lista.png",
+      "sha256": "b795be095408522b5cdf73df147caa87c8ee0f997f6b0dae7f0bd4244694990a"
+    },
+    {
+      "reference": "app-demo\\src\\app\\globals.css",
+      "sha256": "e9c4efda30abd5d79a29d3ec6525802983781c8ef6e21cd1312c2febbf68cae3"
+    },
+    {
+      "reference": "app-demo\\src\\components\\layout\\sidebar.tsx",
+      "sha256": "97133f1171e9eb77a63647e262569dc1438104e19d0769599f84244e17b4722a"
+    },
+    {
+      "reference": "MarketDonaNelly\\src\\app\\globals.css",
+      "sha256": "5c7845f92f575ad5201b25bdcf0c1074b569db270e1466178e7a23ccc4e3062c"
+    },
+    {
+      "reference": "MarketDonaNelly\\src\\components\\layout\\sidebar.tsx",
+      "sha256": "878ed15949d633f9d3660d1123a6b530b6d1fc48491ca7d84b4e585395879e90"
+    },
+    {
+      "reference": "app-inventario\\src\\app\\globals.css",
+      "sha256": "3337fee741b5bd26c7de369e4124362c2ff8523e39cc47e7349cc43cdbe99756"
+    },
+    {
+      "reference": "app-inventario\\src\\components\\layout\\sidebar.tsx",
+      "sha256": "d8f70647f53f96feb7cf3a0382e58ae489178d77c90db6a4bc27b34ea619edc1"
+    },
+    {
+      "reference": "clix-demo\\src\\app\\globals.css",
+      "sha256": "8d61ff6b421ab6955bfd9c20f788bc2af0fedcbf9d4a049636e2aa17a148ba97"
+    },
+    {
+      "reference": "clix-demo\\src\\components\\layout\\sidebar.tsx",
+      "sha256": "6f901e948c28b3d812ef5326ddb04110e960ad04097690ac8dc245e276046c4e"
+    }
+  ]
+}

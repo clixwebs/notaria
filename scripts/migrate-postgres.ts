@@ -1,0 +1,3 @@
+import {platform,query} from '../src/server/platform.ts';
+if(!process.env.DATABASE_URL||!process.env.BETTER_AUTH_SECRET||process.env.NOTARIA_MIGRATE!=='1'||process.env.VERCEL)throw new Error('Explicit PostgreSQL migration environment required, outside the web runtime.');
+try{const {db}=await platform();try{const versions=await query<{version:number}>(db,'SELECT version FROM platform_migrations ORDER BY version');console.log(JSON.stringify({engine:'postgresql',appliedVersions:versions.map(v=>v.version)}));}finally{await db.destroy();}}catch(e){console.error('PostgreSQL migration failed:',e instanceof Error?e.name:'Unknown');process.exitCode=1;}

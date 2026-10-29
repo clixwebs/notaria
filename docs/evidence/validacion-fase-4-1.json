@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-29",
+  "version": "0.4.1",
+  "build": "passed",
+  "typecheck": "passed",
+  "lint": "passed",
+  "unitTests": 21,
+  "e2ePassed": 37,
+  "e2eFailed": 0,
+  "e2eSkipped": 0,
+  "e2eDurationMs": 91805.956,
+  "tariffIntegrityCheckGroups": 7,
+  "financeIntegrityCheckGroups": 12,
+  "cliBackupRestoredAndVerified": true,
+  "restoredDomainTablesEqualOriginal": true,
+  "restoredTablesCompared": 15,
+  "qaData": ".notaria-phase41-qa-04",
+  "restoredData": ".notaria-phase41-restaurada-qa-04",
+  "qaStopped": true,
+  "review": "http://127.0.0.1:3100/tarifario",
+  "reviewAnonymousAPIs401": true,
+  "localMarkdownLinks": 114,
+  "brokenLinks": 0,
+  "sourceHashFiles": 66,
+  "notes": [
+    "Tax treatment, XML/QR fiscal contract, simulated fiscal adapter and SUNAT emission remain pending.",
+    "Instrumental procedures BK-14–17 and operational pilot remain pending.",
+    "Final Windows execution resolves sandbox link/network/process visibility restrictions.",
+    "No QA accounts created in the principal review installation."
+  ]
+}

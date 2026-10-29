@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-29",
+  "equal": true,
+  "tables": {
+    "tariff_state": {
+      "count": 1,
+      "sha256": "4d49f4b090aead59dbb673f0c8341ab7a4767ca3cabc9c518ed2ccc5cb7a7db6"
+    },
+    "tariff_items": {
+      "count": 5,
+      "sha256": "aff8f24a59d3b65a97143176f82529c7aa22fa42ac7130bc7b8b3a142b622f72"
+    },
+    "tariff_versions": {
+      "count": 7,
+      "sha256": "e569e13097a42834f2e16744f30892d05b2976c55f37bb256ada2192269a8b4a"
+    },
+    "tariff_requests": {
+      "count": 7,
+      "sha256": "a38715c87e46fa2d908ed37a63ec314372c3ecb7f578348abc8451433ce25683"
+    },
+    "case_quote_tariffs": {
+      "count": 3,
+      "sha256": "8fcd18e45729709b0624472d5870fec11e64afc413b881a4ce42cb85b78c2ec3"
+    },
+    "case_quotes": {
+      "count": 8,
+      "sha256": "ddb20b5a4b9b9fa4f98cac733293fea54402cf987ffc8e33ec67524cc98e4bdb"
+    },
+    "quote_acceptances": {
+      "count": 5,
+      "sha256": "62ec923d573ca7745cb5f63934c2e30d7788376938863f5f836365e6dddbe606"
+    },
+    "service_orders": {
+      "count": 4,
+      "sha256": "4d69c8a680914f7d275ac26bb0a1dc3d75d296408e6ba86cea87b28c9f98ab11"
+    },
+    "finance_state": {
+      "count": 1,
+      "sha256": "b7f03aad0237c4ecd155426db7a2a95369eb78349fd56b84dcf4af03e6c1df27"
+    },
+    "finance_entries": {
+      "count": 29,
+      "sha256": "adb772975881e3f4a37d71ddd89b9319b66f7dcd2d8be5c18f45ff71ab12a475"
+    },
+    "finance_requests": {
+      "count": 38,
+      "sha256": "a27755ff1fa6d25e68ce57292cb2d7a33936f5b9a2da5ad3b401cfab612b4f82"
+    },
+    "finance_sessions": {
+      "count": 3,
+      "sha256": "015f897878c4d88442f95aa666d7edbb9ef16156f4ee990cbbb3d8285c197d3f"
+    },
+    "finance_closings": {
+      "count": 2,
+      "sha256": "dd7e72dc5f3074572bf8f1efb44f2df3a80b4ce96e7509ba69bb28b58698c52b"
+    },
+    "finance_matches": {
+      "count": 2,
+      "sha256": "844577db8d420a6469b94a9f789c1b073cc8c9935437cbfa7f66144b2f565190"
+    },
+    "finance_unmatches": {
+      "count": 1,
+      "sha256": "5179613f1431768dc302053ca66d1202d8f5ddfe2641bff3826f2705debb17d5"
+    }
+  },
+  "notes": [
+    "Comparación secuencial de dos bases QA detenidas; auditoría de verificaciones excluida porque las lecturas agregan evidencia. No se imprime contenido ni credenciales."
+  ]
+}

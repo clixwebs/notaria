@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-29",
+  "version": "0.3.0",
+  "build": "passed",
+  "typecheck": "passed",
+  "lint": "passed",
+  "unitTestsPassed": 15,
+  "e2ePassed": 19,
+  "e2eFailed": 0,
+  "integrityChecksPassed": 11,
+  "cliBackupAndRestore": "passed",
+  "localMarkdownLinksChecked": 92,
+  "documentIssues": [],
+  "referenceHashesMatched": 48,
+  "referenceDifferences": [],
+  "reviewInstallation": {
+    "url": "http://127.0.0.1:3100/expedientes",
+    "newApiRejectsUnauthenticated": true
+  },
+  "limits": [
+    "Local requested case/requirements/version/quote scope; instrumental procedure and operations remain pending."
+  ]
+}

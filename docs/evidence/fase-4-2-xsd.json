@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-29",
+  "schema": "https://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Invoice-2.1.xsd",
+  "schemas": {
+    "https://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Invoice-2.1.xsd": "40fae8cb436f3a9506d7acce65ba162caef3b0bed4d5cbc0992b2153ded4edf4",
+    "https://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/common/UBL-CommonAggregateComponents-2.1.xsd": "939172ad8dd057cd403e7f763f6532184dd5ed4b9de24c42ebb35db4792ba613",
+    "https://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/common/UBL-CommonBasicComponents-2.1.xsd": "bd4ad043ee1d9da1c7f8018dabf739cfafdfb59143d0d16b9ef769e6b7c408a7",
+    "https://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/common/UBL-QualifiedDataTypes-2.1.xsd": "7dcb156e610239c97ae70940cf4653b88e48c3595bf5f56a2204a32e2893e6cf",
+    "https://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/common/UBL-UnqualifiedDataTypes-2.1.xsd": "09052d406b4293e2a5f9c2bfee6df10ad4d8d5f0b36e24a6349d7f7936d89eb6",
+    "https://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/common/CCTS_CCT_SchemaModule-2.1.xsd": "dd546e4809df86b6445589f69f0d6c9df162840ae386574ddfc1da7638103e15",
+    "https://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/common/UBL-CommonExtensionComponents-2.1.xsd": "ad7a4e490978adfbcfc5ec0bb20941cf11ac960ccf0c4de8791a7c731a8dbe87",
+    "https://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/common/UBL-ExtensionContentDataType-2.1.xsd": "fcee77a11870208e6377ea6311b9f2a050bca24bdad8606ea02d71e9f9e72f8d",
+    "https://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/common/UBL-CommonSignatureComponents-2.1.xsd": "3db472305f029bba5c1ae157bfd0178f715c3f9b94bd8e6c557dbce5e88da874",
+    "https://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/common/UBL-SignatureAggregateComponents-2.1.xsd": "17bb6b62d709b4fd81449a37655af36aa6a1276ad4fdb1b2e249a5ed4b7c2172",
+    "https://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/common/UBL-SignatureBasicComponents-2.1.xsd": "cef924d7ba3d1d8ade14469325cde1364f8c174e46f0198ec02da8e9e748a489",
+    "https://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/common/UBL-xmldsig-core-schema-2.1.xsd": "101909c9f06456d61ddcc4fb982f1d40dc357b439f393b1a2eb46e42acd60809",
+    "https://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/common/UBL-XAdESv132-2.1.xsd": "a4f726bcf8cc3f7d9ffa4dab99e005535a8e8b60dced1e5d94578d2e05afa96e",
+    "https://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/common/UBL-XAdESv141-2.1.xsd": "1fa4625e9cefcb7a9abb5ac1b64315547450031eece8a55bd584e4ba4b79dbc1"
+  },
+  "validated": [
+    {
+      "file": "SIM-B001-00000001.xml",
+      "sha256": "afcebff6553fb816e72c5b566f792e787c4543af62d0f1b195e373458028c4ae"
+    },
+    {
+      "file": "SIM-F001-00000001.xml",
+      "sha256": "1ea821ec16148568b3cf7baed23e1f1b21775bc5878f0b0b1afc6c7789c4a31d"
+    },
+    {
+      "file": "SIM-F001-00000002.xml",
+      "sha256": "1e5bfff50ad1625e558ec7c3cb0992b5b2e8b67783befe15281dafe3987b9fa5"
+    },
+    {
+      "file": "SIM-F001-00000003.xml",
+      "sha256": "18a66aae32884fbf2c44c6a993c34a4d95d5947143c4ae416c906f034937a16b"
+    },
+    {
+      "file": "SIM-F001-00000004.xml",
+      "sha256": "7ebf71200a2a5008e50159f427d641f08c6dcd6eebf28efd896beb3cd2204fd6"
+    },
+    {
+      "file": "SIM-F001-00000005.xml",
+      "sha256": "971f50e543c9f5c85e1ea8c554eda81a3153c7c1ff0c5bb29cb080bb01c9c512"
+    },
+    {
+      "file": "SIM-F001-00000006.xml",
+      "sha256": "c55cf3367cc0628ff9376f9d143243e6b5eaf4a9ec2dc5c90d6b26a7f282ebb9"
+    },
+    {
+      "file": "SIM-F001-00000007.xml",
+      "sha256": "de9c0986e44d2ce42d68cd2088fa609249c63fccb7242df0d88d19a34c3aa8e2"
+    },
+    {
+      "file": "SIM-F001-00000008.xml",
+      "sha256": "4c63fe035b4ad26b9d3372a981704fb97bc1f512d72917a5f43292b452eafe7c"
+    },
+    {
+      "file": "SIM-F001-00000009.xml",
+      "sha256": "7509afe19435cca15bcde5f3bd9b646c86e0f4ac805af82b39f0a0fc0ff82448"
+    }
+  ],
+  "allPassed": true,
+  "limits": [
+    "Solo estructura XSD UBL 2.1. No valida reglas SUNAT, RUC, tributos, firma digital o CDR; no se envió ningún XML a red."
+  ]
+}
