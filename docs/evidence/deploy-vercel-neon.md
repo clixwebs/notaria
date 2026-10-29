@@ -35,3 +35,5 @@ La API Neon creó inicialmente roles con membresía elevada. La inspección SQL 
 ## Límites conservados
 
 Sin RENIEC/lector, firma criptográfica, presentación SUNARP, CDR verificado, emisión SUNAT o formato oficialSBS/OCP. Publicación de revisión no acredita operación notarial, seguridad externa, carga, recuperaciónNeon/RPO/RTO o políticas jurídicas. Archivos menores a4MB enVercel por límite de peticiones. No se ejecutaron scripts sobre `.notaria/` activa ni se crearon cuentasQA en ella. Las pruebas de nube usan la ramaNeon QA; PostgreSQL admite sus conexiones independientes sin compartir una carpetaPGlite.
+
+Cierre de código verificado: be6836343e8e44f91dd928c2fc38011d5ea83c68, Vercel READY/dpl_wRbS6RdybfuMJTpVct8A89W6DyJ2. Revisión HTTPS/login repetida sobre esa versión con etiquetas de revisión actualizadas. QA3101 detenida; revisión local3100 reabierta con su base original, Windows24328/sesión60384. La actualización documental posterior no cambia el código de aplicación.

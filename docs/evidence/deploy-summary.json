@@ -5,7 +5,7 @@
   "repository": "https://github.com/clixwebs/notaria",
   "canonicalURL": "https://notariaos.vercel.app",
   "vercelProject": "prj_8WVYRrhn339FLBaaYWmxxRwFmMDz",
-  "deploymentId": "dpl_HGHYL53bA82nKwnkabD2VZkWzLi9",
+  "deploymentId": "dpl_wRbS6RdybfuMJTpVct8A89W6DyJ2",
   "deploymentState": "READY",
   "neonProject": "frosty-truth-22823896",
   "productionBranch": "br-calm-water-b55d1nru",
@@ -46,5 +46,8 @@
   "realProvidersEnabled": false,
   "realSUNATEnabled": false,
   "localDataMigrated": false,
-  "managementKeysCommitted": false
+  "managementKeysCommitted": false,
+  "verifiedSourceCommit": "be6836343e8e44f91dd928c2fc38011d5ea83c68",
+  "qaServerStopped": true,
+  "localReviewPID": 24328
 }
